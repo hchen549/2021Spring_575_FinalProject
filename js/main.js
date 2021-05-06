@@ -5,23 +5,24 @@ var map = (map = L.map("mapid", {
   zoom: 11.4,
 }));
 var minValue;
-// Opening category
+
 var measure = "tot_pop_10";
-//Opening year
 var measureYear = "19";
 var year = 2019;
 var attributeYear = "19";
 var neighborhoods = [];
 var neigh_id_dict = {};
 
-// "#FFEDA0"
-//Set chloropleth range 
 var getColor = chroma.scale(["#F9EBEA", "#7B241C"]).domain([0, 20000]);
 const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
 var colorMapping = {};
 
-//categories that can be displayed
+// Convert color from rgb to hex
+function rgbToHex(r, g, b) {
+  return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
 var measures = [
   "tot_pop_10",
   "pc_wht_10",
@@ -29,20 +30,59 @@ var measures = [
   "yrblt_mdn",
   "crash",
   "crm_prop",
-  "yrblt_mdn",
   "pc_ov64_10",
   "avg_stcnd",
   "pc_un18_10",
   "pc_fmwc_10",
   "crm_pers",
+  "trst_trps",
+  "pc_trst",
 ];
 
-//Set chart sizing
+var measures_definition = {
+  tot_pop_10: "Estimated total population",
+  pc_wht_10:
+    "Estimated percent of persons in the Non-Hispanic White alone race category",
+  avg_huval:
+    "Average assessed value of single family dwelling unit, owner occupied houses",
+  yrblt_mdn:
+    "Median year built for all dwelling units including single household dwelling units, multi-household units, and some residential group quarters",
+  crash: "Total count of reported automobile crashes",
+  crm_prop:
+    "Total count of incidents reported to MPD as property related offenses.",
+  pc_ov64_10: "Estimated percent of persons age 65 and over",
+  avg_stcnd: "Average pavement condition (length-weighted)",
+  pc_un18_10: "Estimated percent of persons age 17 and under",
+  pc_fmwc_10:
+    "Estimated families with own children under 18 as a percent of all households",
+  crm_pers:
+    "Total count of incidents reported to MPD as person related offenses",
+  trst_trps: "Total number of regularly scheduled transit trips",
+  pc_trst:
+    "Percent of dwelling units that lie within one quarter mile walk of a regularly scheduled transit stop",
+};
+
+var measures_conversion = {
+  tot_pop_10: "Total Population",
+  pc_wht_10: "White pct",
+  avg_huval: "Avg House Value",
+  yrblt_mdn: "Median Year Built",
+  crash: "Crashes",
+  crm_prop: "Property-related Incidents",
+  pc_ov64_10: "Senior Population",
+  avg_stcnd: "Pavement Condition",
+  pc_un18_10: "Youth Population",
+  pc_fmwc_10: "Families with Children",
+  crm_pers: "Person-related Incidents",
+  trst_trps: "Available Transit Service",
+  pc_trst: "Transit Stop Access",
+};
+
 var chartWidth = window.innerWidth * 0.5,
   chartWidth = 600,
   // chartHeight = 230,
   chartHeight = 220;
-  (leftPadding = 40),
+(leftPadding = 40),
   (rightPadding = 2),
   (topBottomPadding = 5),
   (chartInnerWidth = chartWidth - leftPadding - rightPadding),
@@ -50,27 +90,81 @@ var chartWidth = window.innerWidth * 0.5,
   // translate = "translate(" + leftPadding + "," + 0 + ")";
   (translate = "translate(" + leftPadding + "," + topBottomPadding / 2 + ")");
 
+let modalBtn = document.getElementById("modal-btn");
+let modal = document.querySelector(".modal");
+let closeBtn = document.querySelector(".close-btn");
+modalBtn.onclick = function () {
+  modal.style.display = "block";
+};
+closeBtn.onclick = function () {
+  modal.style.display = "none";
+};
+window.onclick = function (e) {
+  if (e.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
 function onEachFeature(feature, layer) {
-  //formats attribute so it can be recognized easier
+  var maxValue = d3.max(attributes_19, (d) => {
+    return parseFloat(d[measure]);
+  });
+  getColor = chroma.scale(["#F9EBEA", "#7B241C"]).domain([0, maxValue]);
+
+  var combinedAttributes = measure + "_" + attributeYear;
+
+  if (feature.properties[combinedAttributes] >= 0) {
+    // check whether the neighborhood is selected (clicked) before
+    if (colorMapping.hasOwnProperty(feature.properties.NEIGHB_NAME)) {
+      // If selected, return the assigned color
+      layer.setStyle({
+        fillColor: colorMapping[feature.properties.NEIGHB_NAME],
+        weight: 2,
+        opacity: 1,
+        color: "grey",
+        dashArray: "3",
+        fillOpacity: 1,
+        className: feature.properties["NEIGHB_NAME"] + "Map",
+      });
+    } else {
+      // If not selected, assign the color based on the value of its attributes
+      layer.setStyle({
+        fillColor: getColor(feature.properties[combinedAttributes]),
+        weight: 2,
+        opacity: 1,
+        color: "grey",
+        dashArray: "3",
+        fillOpacity: 1,
+        className: feature.properties["NEIGHB_NAME"] + "Map",
+      });
+    }
+  } else {
+    //FiXED: Change the color of missing value
+    layer.setStyle({
+      fillColor: "black",
+      weight: 2,
+      opacity: 1,
+      color: "grey",
+      dashArray: "3",
+      fillOpacity: 1,
+      className: feature.properties["NEIGHB_NAME"] + "Map",
+    });
+  }
   var popupContent = measure + "_" + attributeYear;
- 
-  //binds popup to each layer 
   if (feature.properties) {
     layer.bindPopup(
       "<p>" +
-        // "Neighborhood: " +
+        "Neighborhood: " +
         feature.properties["NEIGHB_NAME"] +
         " " +
-        //what is the point of this?
         // feature.properties["OBJECTID"] +
-        // "<br>" +
-        popupContent +
+        "<br>" +
+        measures_conversion[measure] +
         ": " +
         feature.properties[popupContent] +
         "</p>"
     );
   }
-  //happens specific to layer, mouse over and click. 
   layer.on({
     mouseover: highlightFeature,
     mouseout: resetHighlight,
@@ -78,54 +172,51 @@ function onEachFeature(feature, layer) {
   });
 }
 
-//Causes highlight when moused over
 function highlightFeature(e) {
   var layer = e.target;
   var neighborName = layer.feature.properties["NEIGHB_NAME"];
-  console.log(layer)
   var GEOID;
-  //
+
   for (var i = 0; i < attributes_19.length; i++) {
     if (attributes_19[i]["name"] === neighborName) {
       GEOID = attributes_19[i]["geo_key"];
     }
   }
   highlightNeighBar(GEOID);
-  //styles outline
+
   layer.setStyle({
     weight: 5,
-    color: "#666",
+    color: "red",
     dashArray: "",
-    fillOpacity: 0.7,
+    fillOpacity: 1,
   });
-  //
+  layer.bringToFront();
   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
     layer.bringToFront();
   }
 }
 
-//Ends highlight when moused off
 function resetHighlight(e) {
   var layer = e.target;
-  //returns to original outline 
+
   layer.setStyle({
     weight: 2,
     opacity: 1,
     color: "grey",
     dashArray: "3",
-    fillOpacity: 0.7,
+    fillOpacity: 1,
   });
 
   var neighborName = layer.feature.properties["NEIGHB_NAME"];
   var GEOID;
-  //
+
   for (var i = 0; i < attributes_19.length; i++) {
     if (attributes_19[i]["name"] === neighborName) {
       GEOID = attributes_19[i]["geo_key"];
     }
   }
   dehighlightNeighBar(GEOID);
-  //
+
   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
     layer.bringToFront();
   }
@@ -134,82 +225,77 @@ function resetHighlight(e) {
 function changeColor(e) {
   var layer = e.target;
   var neighborName = layer.feature.properties["NEIGHB_NAME"];
-  //console.log(neighborName);
+  // console.log(neighborName);
+  var combinedAttributes = measure + "_" + attributeYear;
+  var maxValue = d3.max(attributes_19, (d) => {
+    return parseFloat(d[measure]);
+  });
+  getColor = chroma.scale(["#F9EBEA", "#7B241C"]).domain([0, maxValue]);
 
-  if (layer.options.fillColor !== colorScale(neighborName)) {
+  var currentColor;
+  var currentColorHex;
+
+  if (typeof layer.options.fillColor !== "string") {
+    currentColor = layer.options.fillColor._rgb;
+    currentColorHex = rgbToHex(
+      currentColor[0],
+      currentColor[1],
+      currentColor[2]
+    );
+  } else {
+    currentColorHex = layer.options.fillColor;
+  }
+
+  var supposedColor = getColor(layer.feature.properties[combinedAttributes])
+    ._rgb;
+
+  var supposedColorHex = rgbToHex(
+    supposedColor[0],
+    supposedColor[1],
+    supposedColor[2]
+  );
+
+  // if (layer.options.fillColor !== colorScale(neighborName)) {
+  if (currentColorHex === supposedColorHex) {
+    // Append the neighborhood to neighborhood array
+    console.log("select");
+    console.log(colorScale(neighborName));
     neighborhoods.push(neighborName);
     layer.setStyle({
       weight: 2,
       opacity: 1,
       color: "grey",
       dashArray: "3",
-      fillOpacity: 0.7,
+      fillOpacity: 1,
       fillColor: colorScale(neighborName),
     });
 
     updateBarChartColor(colorScale);
-    addLine(colorScale);
+    addLine(colorScale, false);
   } else {
+    console.log("unselect");
     const index = neighborhoods.indexOf(neighborName);
+    // Remove from the selected neighborhood arrays
     if (index > -1) {
       neighborhoods.splice(index, 1);
-    }
-    var combinedAttributes = measure + "_" + attributeYear;
-    layer.setStyle({
-      fillColor: getColor(layer.feature.properties[combinedAttributes]),
-    });
-    reupdateBarChartColor(layer.feature);
+      console.log(getColor(layer.feature.properties[combinedAttributes]));
 
-    //console.log(layer.feature);
-    removeLine(layer.feature);
-    // addLine(colorScale);
-  }
-}
-
-function style(feature) {
-  return styleAdd(feature);
-}
-
-function styleAdd(feature) {
-  // $(".form-select").on("change", function () {
-  //   attributeYear = $(this).find(":selected").text();
-  // });
-
-  var combinedAttributes = measure + "_" + attributeYear;
-  ////console.log(combinedAttributes);
-
-  if (feature.properties[combinedAttributes]) {
-    if (colorMapping.hasOwnProperty(feature.properties.NEIGHB_NAME)) {
-      return {
-        fillColor: colorMapping[feature.properties.NEIGHB_NAME],
+      layer.setStyle({
         weight: 2,
         opacity: 1,
         color: "grey",
         dashArray: "3",
-        fillOpacity: 0.7,
-        className: feature.properties["NEIGHB_NAME"] + "Map",
-      };
-    } else {
-      return {
-        fillColor: getColor(feature.properties[combinedAttributes]),
-        weight: 2,
-        opacity: 1,
-        color: "grey",
-        dashArray: "3",
-        fillOpacity: 0.7,
-        className: feature.properties["NEIGHB_NAME"] + "Map",
-      };
+        fillOpacity: 1,
+
+        fillColor: getColor(layer.feature.properties[combinedAttributes]),
+      });
+      layer.bringToFront();
+      console.log(layer.feature);
+      reupdateBarChartColor(layer.feature);
+
+      removeLine(layer.feature);
+      // addLine(colorScale);
     }
-  } else {
-    return {
-      fillColor: "black",
-      weight: 2,
-      opacity: 1,
-      color: "grey",
-      dashArray: "3",
-      fillOpacity: 0.7,
-      className: feature.properties["NEIGHB_NAME"] + "Map",
-    };
   }
 }
 
@@ -232,7 +318,7 @@ function createMap() {
 
 function getData() {
   var promises = [
-    d3.csv("data/nip_neighbassoc_19.csv"),
+    d3.csv("data/nip_neighbassoc_19_new.csv"),
     d3.csv("data/nip_neighbassoc_18.csv"),
     d3.csv("data/nip_neighbassoc_17.csv"),
     d3.csv("data/nip_neighbassoc_16.csv"),
@@ -273,7 +359,7 @@ function callback(data) {
     attributes_12,
   ];
 
-  //console.log(attributes_all);
+  console.log(attributes_all);
 
   // Minor differences between two datasets
   var undefinedCommunity = [
@@ -283,18 +369,14 @@ function callback(data) {
 
   attributes_19.map((d) => {
     if (undefinedCommunity.indexOf(d.name) === -1) {
-      // ////console.log("enter");
+      // console.log("enter");
       return (neigh_id_dict[d.name] = d.geo_key);
     }
   });
 
-  //console.log(neigh_id_dict);
-
   var all_neighborhoods = madisonMap.features.map(
     (d) => d.properties.NEIGHB_NAME
   );
-
-  // ////console.log(all_neighborhoods);
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
   colorScale.domain(all_neighborhoods);
@@ -315,13 +397,13 @@ function callback(data) {
     return neigh.properties["NEIGHB_NAME"] !== "City of Madison";
   });
 
-  ////console.log(attributes_all);
+  console.log(attributes_all);
 
   // Change data format from string to numerical value
   attributes_all_new = attributes_all.map(function (d) {
     d.year = new Date(d.year);
     measures.forEach(function (m) {
-      // ////console.log(m);
+      // console.log(m);
       if (m !== "year") {
         d[m] = parseFloat(d[m]);
         // d[m] = +d[m];
@@ -329,7 +411,6 @@ function callback(data) {
     });
     return d;
   });
-  ////console.log(attributes_all_new);
 
   // Add chained selection for two dropdown menu
   $alloption = $(".measure-select").html();
@@ -339,36 +420,51 @@ function callback(data) {
     $(".measure-select option[class!=" + val + "]").remove();
   });
 
-  // Add eventListener for measure select menu
-  $(".measure-select").on("change", function () {
-    measure = $(this).find(":selected").val();
-    ////console.log(measure);
-    ////console.log(attributes_all_new);
+  $(".category-select").on("change", function () {
+    var op = $(this).val();
+    console.log(op);
+    if (op) {
+      $(".measure-select").prop("disabled", false);
+    } else {
+      $(".measure-select").prop("disabled", true);
+    }
+  });
+
+  // Add eventListen for submit button
+  var submission = document.querySelector("#submit-button");
+  submission.addEventListener("click", function () {
+    // e.preventDefault();
+    // var submittedValue = submission.element.subcategory.value;
+    console.log($(".measure-select").find(":selected").val());
+    measure = $(".measure-select").find(":selected").val();
+    var measure_text = $(".measure-select").find(":selected").text();
+    console.log(measure);
+
+    // Update variable definition
+    $("#variable-name").text("Variable: " + measure_text);
+    $("#variable-definition").text(measures_definition[measure]);
 
     // Calculate the maximum value of selected measure
     var maxValueByMeasure = d3.max(attributes_all_new, (d) => {
       return parseFloat(d[measure]);
     });
-    ////console.log(maxValueByMeasure);
+
     // Reset color based on maximum value of selected measure
     getColor = chroma
       .scale(["#F9EBEA", "#7B241C"])
       .domain([0, maxValueByMeasure]);
 
     // Remember the color of the selected elements
-    ////console.log(neighborhoods);
     colorMapping = {};
     neighborhoods.forEach((neigh) => {
       var selected_elements = document.getElementsByClassName(neigh + "Map");
       var selected_element = selected_elements[0];
-      ////console.log(selected_element);
-      ////console.log(getComputedStyle(selected_element)["fill"]);
+      console.log(selected_element);
+      console.log(getComputedStyle(selected_element)["fill"]);
       // selected_elements.style["weight"] = "red";
-      // ////console.log(getStyles(selected_element, "fill"));
+      // console.log(getStyles(selected_element, "fill"));
       colorMapping[neigh] = getComputedStyle(selected_element)["fill"];
     });
-
-    ////console.log(colorMapping);
 
     // Update the color Scale of Map
     changeMapColorByMeasure();
@@ -386,8 +482,66 @@ function callback(data) {
       })
       .duration(500);
     changeBarChartByMeasure(bars);
-    addLine(colorScale);
+    addLine(colorScale, true);
   });
+
+  // Add eventListener for reset button
+  var reset = document.querySelector("#reset-button");
+  reset.addEventListener("click", function () {
+    var maxValue = d3.max(attributes_19, (d) => {
+      return parseFloat(d[measure]);
+    });
+    getColor = chroma.scale(["#F9EBEA", "#7B241C"]).domain([0, maxValue]);
+    var combinedAttributes = measure + "_" + attributeYear;
+    map.eachLayer(function (layer) {
+      if (layer.feature !== undefined) {
+        if (neighborhoods.indexOf(layer.feature.properties.NEIGHB_NAME) > -1) {
+          console.log("Problem!!!!!!!!!!!!!");
+          console.log(getColor(layer.feature.properties[combinedAttributes]));
+          layer.setStyle({
+            weight: 2,
+            opacity: 1,
+            color: "grey",
+            dashArray: "3",
+            fillOpacity: 1,
+            fillColor: getColor(layer.feature.properties[combinedAttributes]),
+          });
+          layer.bringToFront();
+        }
+      }
+    });
+    console.log(neighborhoods);
+    for (var i = 0; i < madisonMap.features.length; i++) {
+      var neighborName = madisonMap.features[i].properties.NEIGHB_NAME;
+      var index = neighborhoods.indexOf(neighborName);
+      if (index > -1) {
+        // Remove the neighborhood from the array of selected neighborhood
+        neighborhoods.splice(index, 1);
+        console.log("success");
+        reupdateBarChartColor(madisonMap.features[i]);
+        removeLine(madisonMap.features[i]);
+      }
+    }
+
+    // reupdateBarChartColor(layer.feature);
+    // removeLine(layer.feature);
+  });
+
+  // // Update the position and color and height of Bar chart
+  // var bars = d3
+  //   .selectAll(".bar-rect")
+  //   //re-sort bars
+  //   .sort(function (a, b) {
+  //     return b[measure] - a[measure];
+  //   })
+  //   .transition()
+  //   .delay((d, i) => {
+  //     return i * 20;
+  //   })
+  //   .duration(500);
+  // changeBarChartByMeasure(bars);
+  // addLine(colorScale);
+  // });
 
   //Join year data with geojson
   for (var i = 0; i < attributes_list.length; i++) {
@@ -401,16 +555,16 @@ function callback(data) {
     allNeighbourhoods.push(d.name);
   });
 
-  ////console.log(allNeighbourhoods);
+  console.log(allNeighbourhoods);
   madisonMap.features = madisonMap.features.filter((d) => {
-    // ////console.log(d.properties.NEIGHB_NAME);
+    // console.log(d.properties.NEIGHB_NAME);
     return allNeighbourhoods.indexOf(d.properties.NEIGHB_NAME) !== -1;
   });
 
-  ////console.log(madisonMap);
+  console.log(madisonMap);
 
   var attributeWithYear = L.geoJson(madisonMap, {
-    style: style,
+    //style: startStyle,
     onEachFeature: onEachFeature,
   }).addTo(map);
 
@@ -432,19 +586,12 @@ function joinData(madisonMap, attribute, measureYear) {
         });
         madisonMap.features[i]["properties"]["geo_key"] =
           attribute[j]["geo_key"];
-
-        // ////console.log(stateName + attributes_19[j]["income"]);
       }
     }
   }
 }
 
 function createBarChart() {
-  // var maxValue = d3.max(attributes_19, (d) => {
-  //   return parseFloat(d[measure]);
-  // });
-  // var yScale = d3.scaleLinear().range([chartHeight, 0]).domain([0, maxValue]);
-
   n = attributes_19.length;
   var chart = d3
     .select("#barChart")
@@ -508,29 +655,20 @@ function createBarChart() {
     .on("mouseout", (event, d) => {
       dehighlightNeighBar(d.geo_key);
       dehighlightMap(d);
-    })
-    .on("click", (event, d) => {
-      var neighborName = d.name;
-      neighborhoods.push(neighborName);
-      changeBarColor(d);
-      changeMapColor(d);
-      addLine(colorScale);
     });
-
-  // Initialize bar plot title
-  // var chartTitle = chart
-  //   .append("text")
-  //   .attr("x", 210)
-  //   .attr("y", 20)
-  //   .attr("class", "barChartTitle")
-  //   .style("font-size", "18px")
-  //   .text("Number of " + measure + " in each neighborhood");
+  // .on("click", (event, d) => {
+  //   var neighborName = d.name;
+  //   neighborhoods.push(neighborName);
+  //   changeBarColor(d);
+  //   changeMapColor(d);
+  //   addLine(colorScale);
+  // });
 
   changeBarChartByMeasure(bars);
 }
 
 function changeBarChartByMeasure(bars) {
-  ////console.log("changeBarChartByMeasure");
+  console.log("changeBarChartByMeasure");
   var maxValue = d3.max(attributes_19, (d) => {
     return parseFloat(d[measure]);
   });
@@ -561,7 +699,9 @@ function changeBarChartByMeasure(bars) {
       }
     });
 
-  $(".bar-chart-title").text(measure + " by neighborhood association");
+  $(".bar-chart-title").text(
+    measures_conversion[measure] + " by neighborhood association"
+  );
 
   // chart
   //   .select(".barChartTitle")
@@ -578,13 +718,13 @@ function changeBarChartByMeasure(bars) {
 function updateBarChartColor(colorScale) {
   var bar = d3.select("#barChart").select(".barchart");
   neighborhoods.forEach((neigh) => {
-    ////console.log(neigh, neigh_id_dict[neigh]);
+    console.log(neigh, neigh_id_dict[neigh]);
 
     // var selectedBar = document.getElementsByClassName(neigh + "Bar");
     var selectedBar = bar
       .select("#_" + neigh_id_dict[neigh])
       .style("fill", colorScale(neigh));
-    ////console.log(selectedBar);
+    console.log(selectedBar);
 
     // selectedBar[0].style["fill"] = colorScale(neigh);
     // // selectedBar[1].style["color"] = colorScale(neigh);
@@ -616,7 +756,7 @@ function createLineChart(data) {
   const xAxisLabel = "Time";
 
   const yValue = (d) => d[measure];
-  const yAxisLabel = measure;
+  const yAxisLabel = measures_conversion[measure];
 
   // const xScale = d3
   //   .scaleTime()
@@ -658,11 +798,6 @@ function createLineChart(data) {
   // Initialize an Y axis
   var yScale = d3.scaleLinear().range([innerHeight, 0]).nice();
 
-  // if (neighborhoods.length === 0) {
-  //   ////console.log("Zero length");
-  //   yScale.domain([0, 5000]);
-  // }
-  // const yAxis = d3.axisLeft(yScale).tickSize(-innerWidth);
   var yAxis = d3
     .axisLeft()
     .scale(yScale)
@@ -670,55 +805,15 @@ function createLineChart(data) {
     .tickPadding(10);
   g.append("g").attr("class", "myYaxis");
 
-  // const yScale = d3
-  //   .scaleLinear()
-  //   .domain([0, 5000])
-  //   .range([innerHeight, 0])
-  //   .nice();
-
-  // const yAxisG = g.append("g").attr("class", "grid").call(yAxis);
-
-  // yAxisG
-  //   .append("text")
-  //   .attr("class", "axis-label")
-  //   .attr("y", -40)
-  //   .attr("x", -innerHeight / 2)
-  //   .attr("fill", "black")
-  //   .attr("transform", `rotate(-90)`)
-  //   .attr("text-anchor", "middle")
-  //   .text(yAxisLabel);
-
-  // const xAxisG = g
-  //   .append("g")
-  //   .attr("class", "grid")
-  //   .call(xAxis)
-  //   .attr("transform", `translate(0,${innerHeight})`);
-
-  // yAxisG.selectAll(".domain").remove();
-  // xAxisG.select(".domain").remove();
-
-  // xAxisG
-  //   .append("text")
-  //   .attr("class", "axis-label")
-  //   .attr("y", 40)
-  //   .attr("x", innerWidth / 2)
-  //   .attr("fill", "black")
-  //   .text(xAxisLabel);
-
-  // // Add Title
-  // const title = measure + " by neighborhood from year 2012 - 2019 ";
-  // g.append("text").attr("class", "title").attr("y", -10).text(title);
-
   $(".line-chart-title").text(
-    measure + " by neighborhood from year 2012 - 2019"
+    measures_conversion[measure] + " by neighborhood from year 2012 - 2019"
   );
 
-  addLine(colorScale);
+  addLine(colorScale, false);
 }
 
-function addLine(colorScale) {
-  ////console.log("enter add line");
-  ////console.log(attributes_all_new);
+function addLine(colorScale, callFromButton) {
+  console.log(attributes_all_new);
   var height = 200;
   var width = 550;
   var margin = { top: 10, right: 10, bottom: 10, left: 10 };
@@ -743,7 +838,7 @@ function addLine(colorScale) {
     return neighborhoods.includes(d.name);
   });
 
-  ////console.log(data.length);
+  console.log(data.length);
 
   // Find the max value of selected neighborhoods
   if (data.length === 0) {
@@ -754,14 +849,12 @@ function addLine(colorScale) {
     });
   }
 
-  ////console.log(maxValue);
-
   var nested = d3.group(data, (d) => d.name);
 
   const xValue = (d) => d.year;
   const xAxisLabel = "Time";
   const yValue = (d) => d[measure];
-  const yAxisLabel = measure;
+  const yAxisLabel = measures_conversion[measure];
 
   // Redefine the domain of yScale
   const yScale = d3
@@ -778,20 +871,21 @@ function addLine(colorScale) {
   const xAxis = d3.axisBottom(xScale).tickSize(-innerHeight).tickPadding(15);
   const yAxis = d3.axisLeft(yScale).tickSize(-innerWidth).tickPadding(10);
   var yAxisG, xAxisG;
-  ////console.log(document.querySelectorAll(".y-grid"));
+  console.log(document.querySelectorAll(".y-grid"));
   // if no axis exists, create one, otherwise update it
-  if (neighborhoods.length < 1) {
+
+  // FIXME: Edit y-axis label
+  if ((neighborhoods.length < 1) & (callFromButton === false)) {
     yAxisG = g.append("g").attr("class", "y-grid").call(yAxis);
     yAxisG
       .append("text")
       .attr("class", "axis-label")
       .attr("y", -45)
       .attr("x", -innerHeight / 2)
-      // .attr("x", 10)
       .attr("fill", "black")
       .attr("transform", `rotate(-90)`)
-      .attr("text-anchor", "middle")
-      .text(yAxisLabel);
+      .attr("text-anchor", "middle");
+
     xAxisG = g
       .append("g")
       .attr("class", "x-grid")
@@ -812,6 +906,8 @@ function addLine(colorScale) {
   yAxisG.selectAll(".domain").remove();
   xAxisG.select(".domain").remove();
 
+  yAxisG.selectAll(".axis-label").text(yAxisLabel);
+
   var line = d3
     .line()
     .x(function (d) {
@@ -828,10 +924,10 @@ function addLine(colorScale) {
 
     lineData.push(temp);
   });
-  ////console.log(lineData);
+  console.log(lineData);
 
   $(".line-chart-title").text(
-    measure + " by neighborhood from year 2012 - 2019"
+    measures_conversion[measure] + " by neighborhood from year 2012 - 2019"
   );
 
   // var lines = g.selectAll(".line").data(lineData).attr("class", "line-path");
@@ -841,7 +937,7 @@ function addLine(colorScale) {
   //   .duration(1500)
   //   .attr("d", line)
   //   .style("stroke", function (d) {
-  //     ////console.log(d);
+  //     console.log(d);
   //     return colorScale(d.name);
   //   });
 
@@ -852,17 +948,17 @@ function addLine(colorScale) {
   //   .merge(lines)
   //   .attr("class", "line-path")
   //   .attr("id", (d) => {
-  //     ////console.log(d[0].geo_key);
+  //     console.log(d[0].geo_key);
   //     "_" + d[0].geo_key;
   //   })
   //   .attr("d", line)
   //   .style("stroke", function (d) {
-  //     ////console.log(d);
+  //     console.log(d);
   //     return colorScale(d[0].name);
   //   });
 
   var u = g.selectAll(".line-path").data(lineData);
-  // var u = g.selectAll(".line-path").data(lineData);
+
   // Updata the line
 
   // TODO: Add mouseover/legend to the line
@@ -871,37 +967,32 @@ function addLine(colorScale) {
     .attr("class", "line-path")
     .merge(u)
     .attr("id", (d) => {
-      ////console.log(d[0].geo_key);
+      console.log(d[0].geo_key);
       "_" + d.geo_key;
     })
     .transition()
     .duration(3000)
     .attr("d", line)
     .style("stroke", function (d) {
-      ////console.log(d);
-      return colorScale(d[0].name);
+      console.log(d);
+      if (colorMapping.hasOwnProperty(d[0].name)) {
+        return colorMapping[d[0].name];
+      } else {
+        return colorScale(d[0].name);
+      }
     })
-
     .attr("id", (d) => {
       return "_" + d[0].geo_key;
     })
     .style("className", function (d) {
-      ////console.log(d[0].name + "Line");
+      console.log(d[0].name + "Line");
       return d[0].name + "Line";
     });
-
-  g.select(".title")
-    .transition()
-    .duration(200000)
-    .text(measure + " by neighborhood from year 2012 - 2019 ");
-
-  // exit
-  // g.selectAll(".line-path").exit().remove();
 
   // neighborhoods.forEach(function (neigh) {
   //   // Arrange the year in ascending order;
   //   var temp = nested.get(neigh).sort((a, b) => a.year - b.year);
-  //   ////console.log(temp);
+  //   console.log(temp);
   //   var geo_key = temp[0].geo_key;
   //   g.append("path")
   //     .datum(temp)
@@ -924,10 +1015,10 @@ function removeLine(d) {
   d3.select(".linePlot")
     .select("#" + geo_key_id)
     .remove();
-  // ////console.log(colorScale(d.properties.NEIGHB_NAME));
+  // console.log(colorScale(d.properties.NEIGHB_NAME));
   // var geoClassName = d.properties.NEIGHB_NAME + "Line";
-  // ////console.log(geoClassName);
-  // ////console.log(document.getElementsByClassName(geoClassName));
+  // console.log(geoClassName);
+  // console.log(document.getElementsByClassName(geoClassName));
 }
 
 function highlightNeighBar(geo_key) {
@@ -938,12 +1029,25 @@ function highlightNeighBar(geo_key) {
 }
 
 function highlightMap(d) {
-  var selected_elements = document.getElementsByClassName(d.name + "Map");
-  var selected_element = selected_elements[0];
-  ////console.log(selected_element);
-  // selected_elements.style["weight"] = "red";
-  selected_element.style["stroke"] = "red";
-  selected_element.style["stroke-width"] = "4";
+  // var selected_elements = document.getElementsByClassName(d.name + "Map");
+  // var selected_element = selected_elements[0];
+  // // selected_elements.style["weight"] = "red";
+  // selected_element.style["stroke"] = "red";
+  // selected_element.style["stroke-width"] = "5";
+
+  map.eachLayer(function (layer) {
+    if (layer.feature !== undefined) {
+      if (layer.feature.properties.NEIGHB_NAME === d.name) {
+        layer.setStyle({
+          weight: 5,
+          color: "red",
+          dashArray: "",
+          fillOpacity: 1,
+        });
+        layer.bringToFront();
+      }
+    }
+  });
 }
 
 function dehighlightNeighBar(geo_key) {
@@ -954,38 +1058,111 @@ function dehighlightNeighBar(geo_key) {
 }
 
 function dehighlightMap(d) {
-  var selected_elements = document.getElementsByClassName(d.name + "Map");
-  var selected_element = selected_elements[0];
-  ////console.log(selected_element);
-  // selected_elements.style["weight"] = "red";
-  selected_element.style["stroke"] = "grey";
-  selected_element.style["stroke-width"] = "2";
+  // var selected_elements = document.getElementsByClassName(d.name + "Map");
+  // var selected_element = selected_elements[0];
+  // console.log(selected_element);
+  // // selected_elements.style["weight"] = "red";
+  // selected_element.style["stroke"] = "grey";
+  // selected_element.style["stroke-width"] = "2";
+
+  map.eachLayer(function (layer) {
+    if (layer.feature !== undefined) {
+      if (layer.feature.properties.NEIGHB_NAME === d.name) {
+        layer.setStyle({
+          weight: 2,
+          opacity: 1,
+          color: "grey",
+          dashArray: "3",
+          fillOpacity: 1,
+        });
+        layer.bringToFront();
+      }
+    }
+  });
 }
 
 function changeMapColorByMeasure() {
-  L.geoJson(madisonMap, {
-    style: style,
-    onEachFeature: onEachFeature,
-  }).addTo(map);
+  var maxValue = d3.max(attributes_19, (d) => {
+    return parseFloat(d[measure]);
+  });
+  getColor = chroma.scale(["#F9EBEA", "#7B241C"]).domain([0, maxValue]);
+
+  var combinedAttributes = measure + "_" + attributeYear;
+
+  map.eachLayer(function (layer) {
+    if (layer.feature !== undefined) {
+      if (layer.feature.properties[combinedAttributes] >= 0) {
+        layer.bindPopup(
+          "<p>" +
+            "Neighborhood: " +
+            layer.feature.properties["NEIGHB_NAME"] +
+            " " +
+            // layer.feature.properties["OBJECTID"] +
+            "<br>" +
+            measures_conversion[measure] +
+            ": " +
+            layer.feature.properties[combinedAttributes] +
+            "</p>"
+        );
+        // check whether the neighborhood is selected (clicked) before
+        if (colorMapping.hasOwnProperty(layer.feature.properties.NEIGHB_NAME)) {
+          // If selected, return the assigned color
+          layer.setStyle({
+            fillColor: colorMapping[layer.feature.properties.NEIGHB_NAME],
+            weight: 2,
+            opacity: 1,
+            color: "grey",
+            dashArray: "3",
+            fillOpacity: 1,
+            className: layer.feature.properties["NEIGHB_NAME"] + "Map",
+          });
+        } else {
+          // If not selected, assign the color based on the value of its attributes
+          layer.setStyle({
+            fillColor: getColor(layer.feature.properties[combinedAttributes]),
+            weight: 2,
+            opacity: 1,
+            color: "grey",
+            dashArray: "3",
+            fillOpacity: 1,
+            className: layer.feature.properties["NEIGHB_NAME"] + "Map",
+          });
+        }
+      } else {
+        //FiXED: Change the color of missing value
+        // console.log(feature.properties[combinedAttributes]);
+        layer.setStyle({
+          fillColor: "black",
+          weight: 2,
+          opacity: 1,
+          color: "grey",
+          dashArray: "3",
+          fillOpacity: 0.7,
+          className: layer.feature.properties["NEIGHB_NAME"] + "Map",
+        });
+      }
+      layer.bringToFront();
+    }
+  });
 
   //FIXME:Remain the highlighted color of clicked neighborhoods, probably by using a dictionary
 
   neighborhoods.forEach(function (neigh) {
     var selected_elements = document.getElementsByClassName(neigh + "Map");
     var selected_element = selected_elements[0];
-    ////console.log(selected_element);
+    console.log(selected_element);
     // selected_elements.style["weight"] = "red";
     selected_element.style["fill"] = colorScale(neigh);
   });
 }
 
-function changeMapColor(d) {
-  var selected_elements = document.getElementsByClassName(d.name + "Map");
-  var selected_element = selected_elements[0];
-  ////console.log(selected_element);
-  // selected_elements.style["weight"] = "red";
-  selected_element.style["fill"] = colorScale(d.name);
-  // selected_element.style["stroke-width"] = "4";
-}
-
 $(document).ready(createMap);
+
+// function changeMapColor(d) {
+//   var selected_elements = document.getElementsByClassName(d.name + "Map");
+//   var selected_element = selected_elements[0];
+//   console.log(selected_element);
+//   // selected_elements.style["weight"] = "red";
+//   selected_element.style["fill"] = colorScale(d.name);
+//   // selected_element.style["stroke-width"] = "4";
+// }

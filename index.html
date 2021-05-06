@@ -24,9 +24,42 @@
     
 
     <div class="card">
-      <h3 class="card-header">Madison Neighborhood Comparisons</h5>
-      <h5 >Learn more about Madison neighborhoods! Different catagories can be selected and compared. Click on a neighborhood to learn more.</h5> 
 
+      <div class="card-header container-fluid">
+        <div class="row">
+          <div class="col-md-10">
+            <h4 class="w-75 p-1">Best Neighborhood to live in Madison</h4>
+          </div>
+          <div class="col-md-2 float-right">
+            <!-- Button trigger modal -->
+              <!-- Button trigger modal -->
+              <button id="modal-btn">About</button>
+              <div class="modal">
+                <div class= "row">
+                  <div class = "col-6 offset-3">
+                    <div class="modal-content">
+                      <span class="close-btn">&times;</span>
+                      <p>Introduction</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="overlay"></div>  
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- <div class="row">
+        <div class = "col-10">
+          <h5 class="card-header">Best Neighborhood to live in Madison</h5>
+        </div>
+
+        <div class = "col-2">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Launch demo modal
+          </button>
+        </div>
+      </div> -->
       <div class="card-body">
         
 
@@ -48,57 +81,113 @@
         </div> -->
 
 
-        <div class="row">
+        <div class="row align-items-center">
 
-          <div class = "col-3">
-            <select class="category-select" aria-label="Default select example">
-              <option selected>Please select a category</option>
-              
-              <option value="education">education</option>
-              <option value="safety">safety</option>
-              <option value="property">property</option>
-              <option value="population">population</option>
-              
-            </select>
+          <div class = "col-6">
+
+            <div class="card" style="height: 120px">
+              <div class="card-body">
+
+                
+                  <div class = "row">
+                    <div class = "col-8">
+                      <form name="form1" id="submit-form1">
+                        <div class="form-group row">
+                          <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Categories</label>
+                          <div class="col-sm-7">
+                            <select class="category-select form-control form-control-sm" name = "overall-category" aria-label="Default select example">
+                              <option value = "" selected>Please select a category first</option>      
+                              <option value="safety">Safety</option>
+                              <option value="property">Property</option>
+                              <option value="population">People</option>
+                              <option value="transportation">Transportations</option>
+                            </select>
+                          </div>
+                        </div>
+    
+                        <div class="form-group row">
+                          <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Variables</label>
+                          <div class="col-sm-7">
+                            <select class="measure-select form-control form-control-sm" disabled = "disabled" name = "subcategory" aria-label="Default select example">
+                              <option value = "" selected>Please select an attribute</option>                   
+                              <option value="tot_pop_10" class = "population">Total Population</option>
+                              <option value="pc_wht_10" class = "population">White pct</option>
+                              <option value="pc_ov64_10" class = "population">Senior Population</option>
+                              <option value="pc_un18_10" class = "population">Youth Population</option>
+                              <option value="pc_fmwc_10" class = "population">Families with Children</option>
+                              <option value="avg_huval" class = "property">Avg House Value</option>
+                              <option value="yrblt_mdn" class = "property">Median Year Built</option>
+                              <option value="crash" class = "safety">Crashes</option>
+                              <option value="crm_prop" class = "safety">Property-related Incidents</option>
+                              <option value="crm_pers" class = "safety">Person-related Incidents</option>
+                              <option value="avg_stcnd" class = "transportation">Pavement Condition</option>
+                              <option value="trst_trps" class = "transportation">Available Transit Service</option>
+                              <option value="pc_trst" class = "transportation">Transit Stop Access</option>
+                            </select>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class = "col-2 align-self-center">
+                      <!-- <input id = "submit-button" type="submit" value="Submit"> -->
+                      <!-- <br> -->
+                      <div class = "button">
+                        <button id = "submit-button" type="button" class="btn btn-primary btn-sm btn-block">Submit</button>
+                        
+                      </div>
+                      <div class = "button">
+                        <button id = "reset-button" type="button" class="btn btn-warning btn-sm btn-block">Reset</button>
+                      </div>
+                     
+                      
+                    </div>
+                  
+                   
+                </div>
+                  
+                
+                <!-- <h5 id = "variable-name">Variable: Total Population</h5> -->
+               
+                
+              </div>
+            </div>
+           
           </div>
-          <div class = "col-3 " >
-            <select class="measure-select" aria-label="Default select example">
-              <option selected>Please select an attribute</option>
-              
-              <option value="tot_pop_10" class = "population">Population</option>
-              <option value="pc_wht_10" class = "population">White pct</option>
-              <option value="avg_huval" class = "property">Avg House Value</option>
-              <option value="yrblt_mdn" class = "property">yrblt_mdn</option>
-              <option value="crash" class = "safety">crash</option>
-              <option value="crm_prop" class = "safety">crm_prop</option>
           
-              <option value="pc_ov64_10" class = "population">% over 64</option>
-              <option value="avg_stcnd" class = "property">avg_stcnd</option>
-              <option value="pc_un18_10" class = "population">pc_un18_10</option>
-              <option value="pc_fmwc_10" class = "safety">pc_fmwc_10</option>
-              <option value="crm_pers" class = "safety">crm_pers</option>
-            </select>
+
+          <div class = "col-5 offset-1 ">
+
+            <div class="card" style="height: 120px">
+              <div class="card-body">
+                <h5 id = "variable-name">Variable: Total Population</h5>
+                <!-- <h5 class="card-title">Special title treatment</h5> -->
+                <p id = "variable-definition">Estimated total population.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+            
           </div>
         </div>
 
         <br>
         <div class = "row">
-          <div class = "mapcol col-7">
-            <div id="mapid"></div>
-          
-          </div>
-          <div class = "col-5">
-            <div class = "row">
-              <div id = "bar-chart-title" class = "bar-chart-title chart-title">Total Population by neighborhood association</div>
-              <div id = "barChart"></div>
-            </div>
-            <div class = "row">
-              <div id = "line-chart-title" class = "line-chart-title chart-title">Total Population by neighborhood from year 2012 - 2019</div>
-              <div id = "lineChart"></div>
+          <!-- <div class = "card"> -->
+            <div class = "mapcol col-7">
+              <div id="mapid"></div>
             </div>
 
-
-          </div>
+            <div class = "col-5">
+              <div class = "row">
+                <div id = "bar-chart-title" class = "bar-chart-title chart-title">Total Population by neighborhood association</div>
+                <div id = "barChart"></div>
+              </div>
+              <div class = "row">
+                <div id = "line-chart-title" class = "line-chart-title chart-title">Total Population by neighborhood from year 2012 - 2019</div>
+                <div id = "lineChart"></div>
+              </div>
+            </div>
+          <!-- </div> -->
         </div>
 
         <div class = "row">
@@ -112,11 +201,17 @@
        
       </div>
     </div>
+
+    <!-- the actual interesting bit -->
+    
     <div class = "row">
       
       <!-- <div id="panel"></div> -->
       <!-- <div id = "barChart"></div> -->
     </div>
+
+
+    
     
     <!--you can also use this space for internal scripts;
         place these within <script> tags-->
@@ -124,6 +219,7 @@
     <script type="text/javascript" src="lib/chroma.js"></script>
     <script type="text/javascript" src="lib/d3.js"></script>
     <script type="text/javascript" src="lib/leaflet-src.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.js"></script>
     <!-- <script type="text/javascript" src="js/quickstartTutorial.js"></script> -->
     <!-- <script type="text/javascript" src="js/geojsonTutorial.js"></script> -->
 

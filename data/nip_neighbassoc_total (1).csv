@@ -1,0 +1,788 @@
+geo_key,name,tot_pop_10,pc_wht_10,avg_huval,yrblt_mdn,crash,crm_prop,yrblt_mdn,pc_ov64_10,avg_stcnd,pc_un18_10,pc_fmwc_10,crm_pers,year
+118,Wexford Village Homeowners Association,2506,84.3,362763,1992,29,11,1992,15.6,6.3,19.7,22.5,0,2019
+145,Oakbridge Community Neighborhood Association,343,81.5,276191,1984,4,3,1984,6.5,9.1,19.7,26.2,0,2019
+363,Cherokee Garden Condominium Association,783,95.7,"N/A""""",1985,2,1,1985,49.3,7.9,1.9,2.2,0,2019
+131,Parkwood Hills Community Association,1274,87.5,391221,1972,28,31,1972,18.3,6.0,23.5,28.9,11,2019
+120,Richmond Hill Homeowners Association,395,85.3,374235,1997,1,3,1997,11.1,7.3,26.3,39.1,0,2019
+138,"Hill Farms, University Neighborhood Association",2942,76.4,379387,1960,35,24,1960,20.5,7.0,19.0,22.2,1,2019
+91,Lake View Hill Neighborhood Association,1192,69.4,217010,1961,24,27,1961,12.9,5.6,22.0,26.1,10,2019
+97,Sherman Neighborhood Association,2835,72.1,188534,1954,161,245,1954,11.0,6.2,19.6,20.8,27,2019
+85,Sherman Village Neighborhood Association,2283,82.2,199919,1966,15,16,1966,19.3,6.5,19.8,21.3,3,2019
+134,Sauk Creek Neighborhood Association,1029,79.5,405926,1992,19,11,1992,11.6,7.0,23.2,29.6,1,2019
+104,Burke Heights Neighborhood Association,607,67.3,189817,1973,22,335,1973,13.1,6.0,22.6,26.1,7,2019
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,453406,1990,1,3,1990,17.5,7.1,18.2,24.9,0,2019
+144,Tamarack Trails Community Condominium Association,464,58.0,269072,1978,1,5,1978,25.5,6.7,26.4,30.1,1,2019
+116,University Apartments Assembly,2643,29.9,"N/A""""",1963,2,0,1963,0.5,4.0,26.8,39.8,0,2019
+115,Tenney-Lapham Neighborhood Association,4149,87.1,371040,1930,225,163,1930,3.4,6.7,9.5,9.8,43,2019
+117,Spring Harbor Neighborhood Association,2224,78.0,400130,1960,25,31,1960,12.2,4.4,17.4,20.7,6,2019
+170,Stone Meadows Neighborhood Association,3118,78.8,274151,2000,16,32,2000,6.3,6.8,27.4,42.9,3,2019
+177,Summit Woods Neighborhood Association,721,85.1,271409,1966,9,13,1966,12.7,5.6,14.2,16.6,1,2019
+129,Sunset Village Neighborhood Association,1842,87.4,320220,1948,53,28,1948,13.0,6.4,17.7,20.3,7,2019
+160,Prairie Hills Neighborhood Association,3350,57.2,231517,1977,57,63,1977,6.3,6.0,30.1,34.4,11,2019
+153,Burr Oaks Neighborhood Association,1745,20.1,147335,1962,123,102,1962,3.8,5.5,30.4,35.3,24,2019
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,188832,1986,155,44,1986,7.0,5.9,16.6,18.9,18,2019
+114,Marquette Neighborhood Association,4909,88.8,405640,1917,251,161,1917,4.7,6.4,12.8,15.4,43,2019
+147,Westmorland Neighborhood Association,2207,91.7,341626,1951,26,24,1951,15.0,5.9,22.2,28.9,2,2019
+159,Meadowood Neighborhood Association,2962,68.6,222460,1964,29,59,1964,12.6,6.1,25.3,29.7,14,2019
+362,Crawford-Marlborough-Nakoma Neighborhood Association,2475,89.8,461704,1946,35,54,1946,13.8,6.1,24.3,33.1,2,2019
+169,Orchard Ridge Neighborhood Association,2262,87.6,276737,1964,55,128,1964,21.3,6.5,17.4,21.0,9,2019
+105,Eken Park Neighborhood Association,2505,78.3,184764,1948,119,46,1948,6.8,6.5,15.0,16.3,17,2019
+166,Glacier Ridge Neighborhood Association,1385,83.3,297918,2002,2,13,2002,2.7,7.0,27.9,39.7,0,2019
+133,Glen Oak Hills Neighborhood Association,844,87.7,258612,1956,15,2,1956,16.7,5.6,14.9,18.1,2,2019
+139,Glendale Neighborhood Association,2233,79.1,216202,1958,43,77,1958,16.4,5.9,19.8,24.7,16,2019
+355,Indian Springs Neighborhood Association,1654,53.9,221488,1988,24,27,1988,3.9,6.4,29.0,35.4,2,2019
+123,Lake Edge Neighborhood Association,2380,88.5,205305,1951,63,42,1951,12.9,4.8,18.0,21.7,11,2019
+101,Ridgewood Neighborhood Association,3992,57.5,251734,1995,42,91,1995,3.8,7.8,27.0,35.0,5,2019
+351,Rocky Bluff Neighborhood Association,1038,76.8,291312,1960,26,18,1960,5.6,5.4,9.6,11.1,2,2019
+178,Leopold Neighborhood Association,1106,45.0,"N/A""""",1981,46,51,1981,5.3,6.7,27.1,29.3,22,2019
+358,Liberty Place Neighborhood Association,432,65.7,271318,2005,2,6,2005,0.7,8.0,30.7,45.0,0,2019
+135,Junction Ridge Neighborhood Association,1628,80.6,304156,2000,105,80,2000,30.9,6.5,10.5,10.3,5,2019
+141,Greenbush Neighborhood Association,2878,88.8,328160,1925,106,133,1925,3.1,6.5,5.6,9.0,40,2019
+162,Highland Manor Home Owners Association,344,61.5,"N/A""""",1971,5,21,1971,16.5,6.0,20.0,21.5,1,2019
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,168392,1964,46,89,1964,4.1,5.9,34.6,39.6,25,2019
+89,Whitetail Ridge,507,76.2,226573,1995,4,2,1995,2.7,7.8,25.4,34.3,0,2019
+113,Rolling Meadows Neighborhood Association,2366,84.1,219312,1966,44,43,1966,15.0,6.3,20.7,26.8,10,2019
+349,Majestic Oaks Neighborhood Association,467,86.7,"N/A""""",1935,21,21,1935,23.2,9.8,8.8,8.2,2,2019
+350,Marbella Condominium Association,463,78.8,"N/A""""",1996,4,7,1996,23.0,6.6,10.1,11.1,1,2019
+140,Vilas Neighborhood Association,1881,90.8,575405,1921,48,34,1921,6.6,6.5,13.4,20.1,6,2019
+99,Mayfair Park Neighborhood Association,593,64.9,181693,1961,121,189,1961,9.4,6.2,22.3,24.9,10,2019
+357,Secret Places Neighborhood Association,473,84.1,378050,2012,0,6,2012,2.3,7.8,33.5,55.4,0,2019
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,292272,1927,195,205,1927,6.2,6.1,15.6,17.7,22,2019
+125,Blackhawk Homeowners Association,2168,83.4,606823,2001,12,27,2001,5.3,6.7,29.3,37.4,0,2019
+102,Sheridan Triangle Neighborhood Association,340,91.9,198365,1947,4,7,1947,17.3,4.6,14.5,17.0,0,2019
+359,Madison West Neighborhood Association,11657,72.7,342763,2001,195,279,2001,5.1,6.9,21.0,24.7,39,2019
+165,Maple-Prairie Neighborhood Association,1732,79.6,289762,1993,17,12,1993,3.5,6.3,21.7,26.9,5,2019
+132,East Buckeye Neighborhood Association,2043,85.2,244145,1986,18,24,1986,5.8,6.5,23.0,32.9,1,2019
+90,Bluff Acres Neighborhood Association,3725,67.6,225482,1980,71,115,1980,7.7,6.7,18.3,20.1,39,2019
+151,Bram's Addition Neighborhood Association,1282,24.4,143451,1965,65,59,1965,8.5,5.9,30.9,31.0,26,2019
+146,Midvale Heights Community Association,3479,83.6,315728,1958,81,59,1958,18.3,6.2,20.1,25.0,5,2019
+361,Truax Neighborhood Association,191,19.5,"N/A""""",2014,12,10,2014,2.7,4.5,43.3,55.3,8,2019
+348,State-Langdon Neighborhood Association,10144,78.9,"N/A""""",1973,157,326,1973,0.2,7.0,0.3,0.3,80,2019
+149,Waunona Neighborhood Association,1027,71.0,400184,1959,17,15,1959,14.5,6.3,20.8,22.9,1,2019
+98,Brentwood Village Association,1128,63.2,241197,1962,9,41,1962,14.9,6.8,20.7,22.4,10,2019
+107,Hiestand Neighborhood Association,3560,58.9,219416,1979,50,64,1979,10.7,7.5,25.2,32.3,14,2019
+88,High Crossing Neighborhood Association,1020,75.5,312660,2003,57,39,2003,11.9,6.6,14.8,15.2,3,2019
+137,South Campus Property Owners Association,4194,80.5,"N/A""""",1992,142,96,1992,0.3,7.0,0.1,0.1,14,2019
+156,Capitol View Neighborhood Association,388,40.5,175668,1966,5,6,1966,5.9,6.7,29.5,28.8,0,2019
+84,Cherokee Park Neighborhood Association,648,93.6,334763,1977,0,6,1977,18.0,6.2,17.6,23.0,0,2019
+143,Wexford Ridge Neighborhood,400,27.3,"N/A""""",1976,2,19,1976,10.7,7.4,39.9,51.9,5,2019
+353,Twin Oaks Neighborhood Association,192,52.3,232433,2005,0,5,2005,0.9,8.0,42.6,57.8,1,2019
+128,Walnut Grove Homeowners Association,981,80.7,333504,1976,12,2,1976,15.4,7.2,21.3,28.6,0,2019
+86,Westchester Gardens Neighborhood Association,1302,65.7,218622,1985,74,110,1985,4.2,7.0,24.8,31.0,15,2019
+164,Westhaven Trails Homeowners Assoc,1956,66.2,242614,1990,12,32,1990,2.8,6.0,26.5,33.3,2,2019
+109,Sprecher East Neighborhood Association,2233,86.4,283763,2003,18,33,2003,6.1,6.8,23.6,31.1,3,2019
+181,Monona Bay Neighborhood Association,1138,53.3,332704,1976,74,54,1976,7.5,6.3,14.7,11.3,6,2019
+92,Lerdahl Park Neighborhood Association,925,80.4,359007,1966,8,19,1966,16.4,5.9,16.6,20.5,8,2019
+126,Capitol Neighborhoods,13845,82.0,336289,1973,412,649,1973,5.2,6.5,1.4,1.4,170,2019
+1,City of Madison,232907,75.7,297172,1976,4131,8449,1976,9.6,6.5,17.5,20.9,1353,2019
+354,Cardinal Glenn Neighborhood Association,178,79.2,324600,2015,55,13,2015,2.5,7.8,22.5,34.6,0,2019
+136,Regent Neighborhood Association,6421,85.3,503986,1936,75,110,1936,6.3,6.3,12.6,15.6,8,2019
+167,Country Grove Neighborhood Association,917,84.7,361622,1996,2,4,1996,5.6,6.7,31.9,44.8,0,2019
+176,Dudgeon-Monroe Neighborhood Association,3181,90.8,420272,1930,58,32,1930,9.2,7.2,18.5,26.7,2,2019
+111,Eastmorland Community Association,3166,89.6,206905,1954,71,273,1954,14.1,6.4,16.3,19.4,16,2019
+364,Elderberry Neighborhood Association,579,85.6,488350,2013,58,21,2013,18.0,7.4,29.6,36.0,0,2019
+121,Elvehjem Neighborhood Association,4165,81.8,226242,1969,64,51,1969,15.2,6.2,21.9,27.3,6,2019
+106,Emerson East Neighborhood Association,2042,83.9,233797,1926,147,92,1926,5.7,7.1,16.7,19.5,12,2019
+142,Faircrest Neighborhood Association,1191,80.2,363413,1965,5,18,1965,15.7,7.9,19.5,25.2,0,2019
+175,Greystone,283,80.8,365500,2004,1,5,2004,5.0,6.6,32.1,47.7,2,2019
+500,Dunn's Marsh Neighborhood Association,2356,32.1,168392,1964,46,89,1964,4.1,5.9,34.6,39.6,25,2019
+130,Wisconsin Co-op Housing Association,355,91.9,297991,1950,2,3,1950,16.2,5.7,21.2,28.3,0,2019
+108,Worthington Park Neighborhood Association,701,30.7,175700,1959,19,14,1959,2.5,4.8,38.6,45.8,8,2019
+352,Woodland Hills Neighborhood Association,682,81.8,354877,1985,17,5,1985,11.9,6.6,14.8,19.2,0,2019
+172,Oakwood Village Association,119,98.3,"N/A""""",1975,2,4,1975,97.9,7.0,0.0,0.0,0,2019
+110,North Star Neighborhood Association,2230,81.7,295557,2008,31,67,2008,21.0,7.2,22.3,27.5,3,2019
+95,Mendota Hills Neighborhood Association,364,82.6,224143,1959,4,4,1959,16.6,5.5,17.7,21.8,0,2019
+93,Nobel Park Neighborhood Association,353,72.2,174737,1955,18,8,1955,9.4,6.8,20.7,22.2,2,2019
+87,North Lake Mendota Neighborhood Association,898,86.3,293917,1992,8,13,1992,8.8,6.9,15.1,27.2,0,2019
+155,Greentree Neighborhood Association,1841,76.7,274005,1967,29,25,1967,15.0,6.3,22.7,29.7,2,2019
+112,Heritage Heights Community Association,2240,89.9,247973,1975,22,35,1975,15.1,6.6,20.5,29.0,3,2019
+103,Hawthorne Neighborhood Association,1090,66.0,167676,1955,72,58,1955,8.4,5.5,20.5,21.7,6,2019
+161,Arbor Hills Neighborhood Association,1101,75.8,315004,1970,7,19,1970,18.3,5.8,20.2,24.7,3,2019
+94,Berkley Oaks Neighborhood Association,1399,48.8,177007,1964,73,68,1964,10.6,6.3,27.1,24.8,15,2019
+148,Bay Creek Neighborhood Association,2401,83.6,302968,1952,96,105,1952,11.1,5.8,14.8,15.7,9,2019
+156,Capitol View Neighborhood Association,388,40.5,143031.0,1966,5,5,1966,5.9,6.2,29.5,28.8,4,2012
+90,Bluff Acres Neighborhood Association,3725,67.6,176436.0,1981,73,143,1981,7.7,7.2,18.3,20.1,41,2012
+95,Mendota Hills Neighborhood Association,364,82.6,176057.0,1959,3,5,1959,16.6,6.3,17.7,21.8,2,2012
+140,Vilas Neighborhood Association,1881,90.8,434895.0,1918,23,63,1918,6.6,6.4,13.4,20.1,5,2012
+102,Sheridan Triangle Neighborhood Association,340,91.9,148381.0,1947,3,8,1947,17.3,5.5,14.5,17.0,0,2012
+159,Meadowood Neighborhood Association,2962,68.6,170035.0,1964,24,109,1964,12.6,7.3,25.3,29.7,36,2012
+104,Burke Heights Neighborhood Association,607,67.3,161477.0,1973,29,116,1973,13.1,6.0,22.6,26.1,9,2012
+171,Allied Dunn's Marsh Neighborhood Association,2157,33.9,128086.0,1964,63,153,1964,4.5,6.6,34.8,39.8,83,2012
+97,Sherman Neighborhood Association,2695,72.4,145987.0,1953,114,166,1953,11.3,6.9,19.4,20.4,38,2012
+125,Blackhawk Homeowners Association,2168,83.4,535821.0,2001,2,10,2001,5.3,7.3,29.3,37.4,0,2012
+1,City of Madison,232626,75.6,234150.0,1972,11706,9822,1972,9.6,6.9,17.5,20.9,2186,2012
+138,"Hill Farms, University Neighborhood Association",2942,76.4,285033.0,1960,27,41,1960,20.5,7.5,19.0,22.2,4,2012
+98,Brentwood Village Association,1128,63.2,189105.0,1962,14,50,1962,14.9,6.8,20.7,22.4,14,2012
+118,Wexford Village Homeowners Association,2506,84.3,295670.0,1992,24,23,1992,15.6,6.5,19.7,22.5,4,2012
+94,Berkley Oaks Neighborhood Association,1399,48.8,135274.0,1966,37,74,1966,10.6,7.2,27.1,24.8,27,2012
+89,Whitetail Ridge,499,76.2,174999.0,1995,2,12,1995,2.6,6.8,25.3,34.2,3,2012
+151,Bram's Addition Neighborhood Association,1282,24.4,112920.0,1965,77,66,1965,8.5,7.6,30.9,31.0,45,2012
+105,Eken Park Neighborhood Association,2505,78.3,136896.0,1948,76,98,1948,6.8,7.7,15.0,16.3,30,2012
+161,Arbor Hills Neighborhood Association,1102,75.8,245922.0,1970,5,24,1970,18.3,6.7,20.2,24.7,5,2012
+351,Rocky Bluff Neighborhood Association,1142,78.3,228614.0,1957,16,23,1957,6.7,6.3,10.6,12.5,4,2012
+164,Westhaven Trails Homeowners Assoc,1956,66.2,191316.0,1990,10,44,1990,2.8,7.0,26.5,33.3,6,2012
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,149842.0,1967,59,163,1967,7.0,7.5,16.6,18.9,20,2012
+128,Walnut Grove Homeowners Association,981,80.7,272194.0,1977,15,21,1977,15.4,5.3,21.3,28.6,1,2012
+167,Country Grove Neighborhood Association,917,84.7,299766.0,1996,2,15,1996,5.6,7.1,31.9,44.8,0,2012
+132,East Buckeye Neighborhood Association,2043,85.2,192460.0,1985,13,23,1985,5.8,6.5,23.0,32.9,6,2012
+500,Dunn's Marsh Neighborhood Association,2157,33.9,128086.0,1964,63,153,1964,4.5,6.6,34.8,39.8,83,2012
+142,Faircrest Neighborhood Association,1191,80.2,283064.0,1965,14,8,1965,15.7,6.5,19.5,25.2,2,2012
+103,Hawthorne Neighborhood Association,1090,66.0,130841.0,1955,39,67,1955,8.4,6.8,20.5,21.7,22,2012
+86,Westchester Gardens Neighborhood Association,1302,65.7,171046.0,1986,67,56,1986,4.2,7.3,24.8,31.0,29,2012
+106,Emerson East Neighborhood Association,2042,83.9,167032.0,1925,156,117,1925,5.7,8.0,16.7,19.5,23,2012
+93,Nobel Park Neighborhood Association,353,72.2,136268.0,1955,12,17,1955,9.4,8.6,20.7,22.2,1,2012
+112,Heritage Heights Community Association,2240,89.9,190302.0,1975,10,25,1975,15.1,6.5,20.5,29.0,2,2012
+133,Glen Oak Hills Neighborhood Association,844,87.7,185809.0,1956,5,19,1956,16.7,6.2,14.9,18.1,0,2012
+84,Cherokee Park Neighborhood Association,1431,94.8,270423.0,1983,4,11,1983,35.1,6.5,9.0,9.4,1,2012
+139,Glendale Neighborhood Association,2233,79.1,179014.0,1958,52,72,1958,16.4,5.5,19.8,24.7,30,2012
+141,Greenbush Neighborhood Association,2879,88.8,243655.0,1918,67,135,1918,3.1,7.1,5.6,9.0,43,2012
+107,Hiestand Neighborhood Association,3561,58.9,168118.0,1979,36,94,1979,10.7,6.5,25.2,32.3,25,2012
+123,Lake Edge Neighborhood Association,2380,88.5,161903.0,1951,43,73,1951,12.9,4.7,18.0,21.7,11,2012
+120,Richmond Hill Homeowners Association,395,85.3,342836.0,1997,2,5,1997,11.1,7.3,26.3,39.1,0,2012
+135,Junction Ridge Neighborhood Association,1628,80.6,249431.0,1998,62,47,1998,30.9,7.1,10.5,10.3,3,2012
+155,Greentree Neighborhood Association,1841,76.7,221014.0,1967,14,42,1967,15.0,7.2,22.7,29.7,12,2012
+130,Wisconsin Co-op Housing Association,355,91.9,205973.0,1951,0,3,1951,16.2,6.0,21.2,28.3,0,2012
+166,Glacier Ridge Neighborhood Association,1385,83.3,240105.0,2002,5,10,2002,2.7,7.5,27.9,39.7,0,2012
+153,Burr Oaks Neighborhood Association,1744,20.1,156427.0,1962,155,130,1962,3.8,6.5,30.4,35.3,64,2012
+91,Lake View Hill Neighborhood Association,1192,69.4,170915.0,1961,21,59,1961,12.9,6.8,22.0,26.1,15,2012
+108,Worthington Park Neighborhood Association,701,30.7,119198.0,1959,17,34,1959,2.5,6.2,38.6,45.8,21,2012
+110,McClellan Park Neighborhood Association,2227,81.7,232081.0,2005,9,31,2005,21.1,7.9,22.3,27.5,2,2012
+114,Marquette Neighborhood Association,4909,88.8,296847.0,1915,119,185,1915,4.7,7.0,12.8,15.4,46,2012
+99,Mayfair Park Neighborhood Association,593,64.9,137059.0,1967,110,138,1967,9.4,7.4,22.3,24.9,36,2012
+177,Summit Woods Neighborhood Association,721,85.0,205785.0,1966,16,18,1966,12.7,6.1,14.2,16.6,3,2012
+150,Nakoma League,1778,93.8,415214.0,1938,30,30,1938,14.3,6.8,25.6,36.8,1,2012
+169,Orchard Ridge Neighborhood Association,2262,87.6,200619.0,1964,48,110,1964,21.3,7.4,17.4,21.0,16,2012
+87,North Lake Mendota Neighborhood Association,898,86.3,242591.0,1992,5,18,1992,8.8,7.0,15.1,27.2,0,2012
+92,Lerdahl Park Neighborhood Association,925,80.4,281459.0,1966,10,32,1966,16.4,6.8,16.6,20.5,11,2012
+131,Parkwood Hills Community Association,1274,87.5,320159.0,1972,65,51,1972,18.3,6.3,23.5,28.9,14,2012
+160,Prairie Hills Neighborhood Association,3350,57.2,178162.0,1977,27,109,1977,6.3,7.0,30.1,34.4,41,2012
+165,Maple-Prairie Neighborhood Association,1732,79.6,222609.0,1993,16,32,1993,3.5,7.5,21.7,26.9,5,2012
+101,Ridgewood Neighborhood Association,3992,57.5,202437.0,1995,47,61,1995,3.8,7.7,27.0,35.0,15,2012
+113,Rolling Meadows Neighborhood Association,2366,84.1,165225.0,1966,35,59,1966,15.0,6.4,20.7,26.8,13,2012
+350,Marbella Condominium Association,463,78.8,,1996,1,6,1996,23.0,7.0,10.1,11.1,1,2012
+85,Sherman Village Neighborhood Association,2283,82.2,152661.0,1966,9,41,1966,19.3,7.2,19.8,21.3,9,2012
+134,Sauk Creek Neighborhood Association,1029,79.5,350848.0,1990,3,5,1990,11.6,6.7,23.2,29.6,2,2012
+145,Oakbridge Community Neighborhood Association,343,81.5,216951.0,1984,1,2,1984,6.5,5.7,19.7,26.2,1,2012
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,209923.0,1925,282,227,1925,6.2,6.5,15.6,17.7,65,2012
+117,Spring Harbor Neighborhood Association,2224,78.0,305098.0,1962,81,79,1962,12.2,5.3,17.4,20.7,10,2012
+170,Stone Meadows Neighborhood Association,3118,78.8,217791.0,2000,22,74,2000,6.3,7.1,27.4,42.9,0,2012
+129,Sunset Village Neighborhood Association,1842,87.4,236309.0,1948,58,50,1948,13.0,6.2,17.7,20.3,1,2012
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,360683.0,1990,0,0,1990,17.5,7.3,18.2,24.9,0,2012
+149,Waunona Neighborhood Association,1970,63.0,321359.0,1969,14,88,1969,10.7,7.8,21.3,24.1,26,2012
+109,Sprecher East Neighborhood Association,2207,86.2,230761.0,2003,13,16,2003,6.0,8.0,23.6,31.1,4,2012
+111,Eastmorland Community Association,3166,89.6,145412.0,1953,95,186,1953,14.1,6.4,16.3,19.4,34,2012
+175,Greystone,283,80.8,360845.0,2004,0,1,2004,5.0,8.0,32.1,47.6,0,2012
+148,Bay Creek Neighborhood Association,2401,83.6,209698.0,1940,69,148,1940,11.1,6.5,14.8,15.7,15,2012
+126,Capitol Neighborhoods,13843,82.0,255850.0,1969,379,796,1969,5.2,7.2,1.4,1.4,181,2012
+158,Park Ridge Neighborhood Association,488,48.3,140978.0,1986,18,24,1986,2.2,6.9,30.1,30.2,6,2012
+176,Dudgeon-Monroe Neighborhood Association,3176,90.8,312402.0,1929,45,44,1929,9.2,5.7,18.6,26.8,1,2012
+121,Elvehjem Neighborhood Association,4165,81.8,180363.0,1968,67,108,1968,15.2,6.5,21.9,27.3,30,2012
+147,Westmorland Neighborhood Association,2207,91.7,245898.0,1950,18,45,1950,15.0,7.1,22.2,28.9,4,2012
+174,Hawk's Landing Neighborhood Association,1503,85.6,519437.0,2004,1,13,2004,6.2,7.0,29.7,36.6,2,2012
+152,High Point Estates,853,71.8,414825.0,1992,10,19,1992,8.4,7.1,28.8,36.9,2,2012
+144,Tamarack Trails Community Condominium Association,464,58.0,,1978,2,5,1978,25.5,6.0,26.4,30.1,0,2012
+143,Wexford Ridge Neighborhood,400,27.3,,1976,6,43,1976,10.7,5.7,39.9,51.9,28,2012
+146,Midvale Heights Community Association,3284,87.0,228629.0,1958,56,73,1958,18.9,7.8,19.0,24.3,8,2012
+157,Moorland-Rimrock Neighborhood Association,2591,49.2,174680.0,1973,31,69,1973,3.8,7.4,28.5,34.4,40,2012
+136,Regent Neighborhood Association,6344,85.2,385308.0,1931,70,135,1931,6.2,6.9,12.4,15.4,26,2012
+163,Skyview Meadows Neighborhood Association,532,81.4,197046.0,1986,7,13,1986,4.7,7.5,20.8,30.1,4,2012
+181,Monona Bay Neighborhood Association,1138,53.3,243361.0,1964,27,49,1964,7.5,7.8,14.7,11.3,13,2012
+168,Sunset Hills Neighborhood Association,213,91.6,365293.0,1962,1,2,1962,34.9,4.4,14.9,17.8,0,2012
+115,Tenney-Lapham Neighborhood Association,4149,87.1,279929.0,1914,106,156,1914,3.4,7.1,9.5,9.8,19,2012
+352,Woodland Hills Neighborhood Association,682,81.8,272260.0,1985,3,5,1985,11.9,6.9,14.8,19.2,1,2012
+88,High Crossing Neighborhood Association,1020,75.5,,2002,19,26,2002,11.9,6.5,14.8,15.2,5,2012
+137,South Campus Property Owners Association,4194,80.5,,1988,79,134,1988,0.3,7.7,0.1,0.1,22,2012
+116,University Apartments Assembly,2643,29.9,,1963,1,1,1963,0.5,4.0,26.8,39.8,0,2012
+178,Leopold Neighborhood Association,1105,45.0,,1982,15,50,1982,5.3,7.5,27.1,29.3,33,2012
+348,State-Langdon Neighborhood Association,10146,78.9,,1964,153,467,1964,0.2,7.9,0.3,0.3,171,2012
+1,City of Madison,232659,75.6,232926.0,1972,11202,9582,1972,9.6,6.8,17.5,20.9,2058,2013
+148,Bay Creek Neighborhood Association,2401,83.6,214226.0,1947,107,141,1947,11.1,6.5,14.8,15.7,16,2013
+105,Eken Park Neighborhood Association,2505,78.3,133792.0,1948,66,88,1948,6.8,6.7,15.0,16.3,40,2013
+149,Waunona Neighborhood Association,1027,71.0,326710.0,1959,2,13,1959,14.5,7.4,20.8,22.9,6,2013
+126,Capitol Neighborhoods,13843,82.0,260786.0,1969,369,768,1969,5.2,7.0,1.4,1.4,172,2013
+176,Dudgeon-Monroe Neighborhood Association,3176,90.8,314416.0,1929,52,35,1929,9.2,6.2,18.6,26.8,3,2013
+111,Eastmorland Community Association,3166,89.6,144840.0,1953,101,144,1953,14.1,6.5,16.3,19.4,17,2013
+153,Burr Oaks Neighborhood Association,1744,20.1,137022.0,1962,116,91,1962,3.8,5.9,30.4,35.3,50,2013
+175,Greystone,283,80.8,362467.0,2004,2,0,2004,5.0,8.0,32.1,47.6,0,2013
+146,Midvale Heights Community Association,3479,83.6,228923.0,1958,36,94,1958,18.3,7.1,20.1,25.0,8,2013
+129,Sunset Village Neighborhood Association,1842,87.4,238374.0,1948,27,23,1948,13.0,6.2,17.7,20.3,1,2013
+136,Regent Neighborhood Association,6344,85.2,389164.0,1931,59,151,1931,6.2,6.9,12.4,15.4,31,2013
+163,Skyview Meadows Neighborhood Association,532,81.4,196815.0,1987,5,11,1987,4.7,7.2,20.8,30.1,0,2013
+352,Woodland Hills Neighborhood Association,682,81.8,273657.0,1985,3,10,1985,11.9,6.9,14.8,19.2,0,2013
+118,Wexford Village Homeowners Association,2506,84.3,282630.0,1992,11,24,1992,15.6,6.9,19.7,22.5,2,2013
+121,Elvehjem Neighborhood Association,4165,81.8,176877.0,1968,41,113,1968,15.2,6.7,21.9,27.3,27,2013
+109,Sprecher East Neighborhood Association,2207,86.2,230310.0,2003,11,35,2003,6.0,8.0,23.6,31.1,8,2013
+115,Tenney-Lapham Neighborhood Association,4149,87.1,281641.0,1914,139,176,1914,3.4,7.4,9.5,9.8,35,2013
+147,Westmorland Neighborhood Association,2207,91.7,247481.0,1951,26,24,1951,15.0,7.1,22.2,28.9,0,2013
+152,High Point Estates,853,71.8,413454.0,1992,7,14,1992,8.4,7.1,28.8,36.9,1,2013
+93,Nobel Park Neighborhood Association,353,72.2,131816.0,1955,9,17,1955,9.4,7.3,20.7,22.2,10,2013
+181,Monona Bay Neighborhood Association,1138,53.3,249961.0,1971,40,56,1971,7.5,7.8,14.7,11.3,16,2013
+157,Moorland-Rimrock Neighborhood Association,2591,49.2,168101.0,1973,15,46,1973,3.8,6.5,28.5,34.4,27,2013
+158,Park Ridge Neighborhood Association,488,48.3,128922.0,1986,8,19,1986,2.2,6.9,30.1,30.2,8,2013
+174,Hawk's Landing Neighborhood Association,1503,85.6,520126.0,2004,3,15,2004,6.2,7.0,29.7,36.6,1,2013
+120,Richmond Hill Homeowners Association,395,85.3,340850.0,1997,5,5,1997,11.1,8.0,26.3,39.1,0,2013
+151,Bram's Addition Neighborhood Association,1282,24.4,113501.0,1965,42,79,1965,8.5,6.6,30.9,31.0,34,2013
+98,Brentwood Village Association,1128,63.2,179752.0,1962,16,38,1962,14.9,7.3,20.7,22.4,23,2013
+350,Marbella Condominium Association,463,78.8,,1995,5,6,1995,23.0,7.6,10.1,11.1,0,2013
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,128700.0,1964,90,180,1964,4.1,6.3,34.6,39.6,81,2013
+161,Arbor Hills Neighborhood Association,1102,75.8,246069.0,1970,7,15,1970,18.3,6.2,20.2,24.7,2,2013
+132,East Buckeye Neighborhood Association,2043,85.2,189622.0,1985,10,28,1985,5.8,6.8,23.0,32.9,2,2013
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,139192.0,1970,63,115,1970,7.0,6.5,16.6,18.9,14,2013
+106,Emerson East Neighborhood Association,2042,83.9,166449.0,1925,61,123,1925,5.7,7.4,16.7,19.5,26,2013
+89,Whitetail Ridge,507,76.2,170565.0,1995,2,9,1995,2.7,6.9,25.4,34.3,2,2013
+142,Faircrest Neighborhood Association,1191,80.2,284549.0,1965,9,23,1965,15.7,6.7,19.5,25.2,7,2013
+133,Glen Oak Hills Neighborhood Association,844,87.7,187106.0,1956,10,12,1956,16.7,6.4,14.9,18.1,0,2013
+99,Mayfair Park Neighborhood Association,593,64.9,136422.0,1958,79,126,1958,9.4,7.4,22.3,24.9,24,2013
+139,Glendale Neighborhood Association,2233,79.1,172002.0,1958,62,79,1958,16.4,5.5,19.8,24.7,19,2013
+141,Greenbush Neighborhood Association,2879,88.8,243518.0,1917,70,133,1917,3.1,7.3,5.6,9.0,40,2013
+351,Rocky Bluff Neighborhood Association,1038,76.8,232492.0,1956,21,20,1956,5.6,6.6,9.6,11.1,0,2013
+155,Greentree Neighborhood Association,1841,76.7,217365.0,1967,14,56,1967,15.0,6.5,22.7,29.7,9,2013
+103,Hawthorne Neighborhood Association,1090,66.0,122386.0,1955,44,64,1955,8.4,6.8,20.5,21.7,26,2013
+107,Hiestand Neighborhood Association,3561,58.9,168551.0,1978,52,102,1978,10.7,6.5,25.2,32.3,33,2013
+112,Heritage Heights Community Association,2240,89.9,190121.0,1975,22,32,1975,15.1,6.5,20.5,29.0,8,2013
+138,"Hill Farms, University Neighborhood Association",2942,76.4,290823.0,1960,24,42,1960,20.5,7.6,19.0,22.2,3,2013
+177,Summit Woods Neighborhood Association,721,85.1,207176.0,1966,10,27,1966,12.7,6.0,14.2,16.6,3,2013
+91,Lake View Hill Neighborhood Association,1192,69.4,160139.0,1961,36,43,1961,12.9,5.9,22.0,26.1,17,2013
+145,Oakbridge Community Neighborhood Association,343,81.5,211516.0,1984,0,3,1984,6.5,5.7,19.7,26.2,0,2013
+123,Lake Edge Neighborhood Association,2380,88.5,160804.0,1951,42,100,1951,12.9,4.7,18.0,21.7,13,2013
+165,Maple-Prairie Neighborhood Association,1732,79.6,223736.0,1993,7,25,1993,3.5,7.7,21.7,26.9,3,2013
+92,Lerdahl Park Neighborhood Association,925,80.4,271476.0,1966,9,26,1966,16.4,6.3,16.6,20.5,5,2013
+95,Mendota Hills Neighborhood Association,364,82.6,167612.0,1959,0,3,1959,16.6,6.2,17.7,21.8,0,2013
+94,Berkley Oaks Neighborhood Association,1399,48.8,128870.0,1963,32,72,1963,10.6,6.5,27.1,24.8,31,2013
+114,Marquette Neighborhood Association,4909,88.8,309924.0,1916,114,192,1916,4.7,6.9,12.8,15.4,34,2013
+159,Meadowood Neighborhood Association,2962,68.6,165060.0,1964,38,116,1964,12.6,6.5,25.3,29.7,41,2013
+101,Ridgewood Neighborhood Association,3989,57.5,197401.0,1995,25,101,1995,3.8,7.7,27.0,35.0,20,2013
+169,Orchard Ridge Neighborhood Association,2262,87.6,201076.0,1964,79,89,1964,21.3,6.9,17.4,21.0,12,2013
+150,Nakoma League,1778,93.8,415650.0,1938,18,35,1938,14.3,6.7,25.6,36.8,1,2013
+87,North Lake Mendota Neighborhood Association,898,86.3,238959.0,1992,6,20,1992,8.8,6.2,15.1,27.2,1,2013
+90,Bluff Acres Neighborhood Association,3725,67.6,176811.0,1981,72,118,1981,7.7,7.2,18.3,20.1,37,2013
+102,Sheridan Triangle Neighborhood Association,340,91.9,141182.0,1947,2,4,1947,17.3,5.4,14.5,17.0,1,2013
+86,Westchester Gardens Neighborhood Association,1302,65.7,163645.0,1985,88,60,1985,4.2,7.4,24.8,31.0,27,2013
+113,Rolling Meadows Neighborhood Association,2366,84.1,161956.0,1966,33,74,1966,15.0,6.7,20.7,26.8,10,2013
+134,Sauk Creek Neighborhood Association,1029,79.5,346798.0,1990,5,9,1990,11.6,6.7,23.2,29.6,0,2013
+97,Sherman Neighborhood Association,2695,72.4,139302.0,1954,65,141,1954,11.3,6.4,19.4,20.4,49,2013
+144,Tamarack Trails Community Condominium Association,464,58.0,191431.0,1978,2,3,1978,25.5,6.0,26.4,30.1,0,2013
+130,Wisconsin Co-op Housing Association,355,91.9,211570.0,1950,0,3,1950,16.2,6.0,21.2,28.3,0,2013
+140,Vilas Neighborhood Association,1881,90.8,437696.0,1921,21,55,1921,6.6,6.4,13.4,20.1,8,2013
+164,Westhaven Trails Homeowners Assoc,1956,66.2,191379.0,1990,12,36,1990,2.8,7.0,26.5,33.3,7,2013
+143,Wexford Ridge Neighborhood,400,27.3,,1976,6,30,1976,10.7,5.7,39.9,51.9,18,2013
+117,Spring Harbor Neighborhood Association,2224,78.0,300823.0,1959,21,37,1959,12.2,5.3,17.4,20.7,10,2013
+128,Walnut Grove Homeowners Association,981,80.7,268811.0,1977,8,10,1977,15.4,5.3,21.3,28.6,1,2013
+108,Worthington Park Neighborhood Association,701,30.7,119725.0,1959,11,28,1959,2.5,5.8,38.6,45.8,22,2013
+125,Blackhawk Homeowners Association,2168,83.4,538616.0,2000,7,10,2000,5.3,7.3,29.3,37.4,1,2013
+170,Stone Meadows Neighborhood Association,3118,78.8,218079.0,2000,20,43,2000,6.3,7.1,27.4,42.9,3,2013
+353,Twin Oaks Neighborhood Association,191,52.3,172457.0,2005,1,5,2005,0.9,8.0,42.6,57.8,6,2013
+167,Country Grove Neighborhood Association,917,84.7,300797.0,1996,6,12,1996,5.6,7.1,31.9,44.8,0,2013
+160,Prairie Hills Neighborhood Association,3350,57.2,175409.0,1977,40,124,1977,6.3,6.6,30.1,34.4,42,2013
+135,Junction Ridge Neighborhood Association,1628,80.6,249542.0,1999,74,78,1999,30.9,7.2,10.5,10.3,2,2013
+104,Burke Heights Neighborhood Association,607,67.3,137188.0,1973,31,140,1973,13.1,6.3,22.6,26.1,11,2013
+156,Capitol View Neighborhood Association,388,40.5,143567.0,1966,2,6,1966,5.9,5.0,29.5,28.8,5,2013
+166,Glacier Ridge Neighborhood Association,1385,83.3,240697.0,2002,1,35,2002,2.7,7.5,27.9,39.7,1,2013
+110,McClellan Park Neighborhood Association,2227,81.7,232324.0,2005,10,38,2005,21.1,8.0,22.3,27.5,5,2013
+500,Dunn's Marsh Neighborhood Association,2356,32.1,128700.0,1964,90,180,1964,4.1,6.3,34.6,39.6,81,2013
+84,Cherokee Park Neighborhood Association,1431,94.8,255785.0,1983,2,8,1983,35.1,5.6,9.0,9.4,1,2013
+137,South Campus Property Owners Association,4194,80.5,,1992,59,163,1992,0.3,7.9,0.1,0.1,16,2013
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,213863.0,1925,103,242,1925,6.2,6.1,15.6,17.7,34,2013
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,363759.0,1990,0,3,1990,17.5,7.3,18.2,24.9,0,2013
+172,Oakwood Village Association,119,98.3,,1975,4,4,1975,97.9,8.9,0.0,0.0,0,2013
+131,Parkwood Hills Community Association,1274,87.5,321963.0,1972,17,34,1972,18.3,6.3,23.5,28.9,11,2013
+85,Sherman Village Neighborhood Association,2283,82.2,142495.0,1965,7,36,1965,19.3,6.8,19.8,21.3,13,2013
+88,High Crossing Neighborhood Association,1020,75.5,,2002,24,48,2002,11.9,6.5,14.8,15.2,9,2013
+178,Leopold Neighborhood Association,1105,45.0,,1981,21,35,1981,5.3,7.4,27.1,29.3,25,2013
+116,University Apartments Assembly,2643,29.9,,1963,5,2,1963,0.5,4.0,26.8,39.8,0,2013
+348,State-Langdon Neighborhood Association,10146,78.9,,1966,114,463,1966,0.2,7.7,0.3,0.3,149,2013
+109,Sprecher East Neighborhood Association,2207,86.2,230419.0,2003,6,30,2003,6.0,6.9,23.6,31.1,1,2014
+177,Summit Woods Neighborhood Association,721,85.1,209061.0,1966,12,16,1966,12.7,6.2,14.2,16.6,1,2014
+117,Spring Harbor Neighborhood Association,2224,78.0,314048.0,1959,12,44,1959,12.2,4.7,17.4,20.7,7,2014
+1,City of Madison,232663,75.6,240319.0,1972,10897,9582,1972,9.6,6.6,17.5,20.9,1767,2014
+167,Country Grove Neighborhood Association,917,84.7,315901.0,1996,0,11,1996,5.6,6.7,31.9,44.8,0,2014
+148,Bay Creek Neighborhood Association,2401,83.6,233672.0,1947,61,115,1947,11.1,5.7,14.8,15.7,11,2014
+126,Capitol Neighborhoods,13844,82.0,274804.0,1969,310,849,1969,5.2,7.3,1.4,1.4,202,2014
+147,Westmorland Neighborhood Association,2207,91.7,261800.0,1951,20,18,1951,15.0,6.0,22.2,28.9,1,2014
+152,High Point Estates,853,71.8,424915.0,1992,2,19,1992,8.4,6.4,28.8,36.9,2,2014
+351,Rocky Bluff Neighborhood Association,1038,76.8,240002.0,1956,27,19,1956,5.6,5.0,9.6,11.1,4,2014
+114,Marquette Neighborhood Association,4909,88.8,321327.0,1916,121,177,1916,4.7,7.1,12.8,15.4,28,2014
+111,Eastmorland Community Association,3166,89.6,148582.0,1953,75,183,1953,14.1,5.9,16.3,19.4,21,2014
+134,Sauk Creek Neighborhood Association,1029,79.5,355321.0,1990,5,13,1990,11.6,7.4,23.2,29.6,2,2014
+174,Hawk's Landing Neighborhood Association,1503,85.6,540452.0,2004,7,17,2004,6.2,6.8,29.7,36.6,1,2014
+115,Tenney-Lapham Neighborhood Association,4149,87.1,291169.0,1917,79,143,1917,3.4,8.0,9.5,9.8,21,2014
+151,Bram's Addition Neighborhood Association,1282,24.4,115803.0,1965,52,105,1965,8.5,6.6,30.9,31.0,27,2014
+121,Elvehjem Neighborhood Association,4165,81.8,178188.0,1968,52,81,1968,15.2,6.6,21.9,27.3,22,2014
+158,Park Ridge Neighborhood Association,488,48.3,128922.0,1986,11,23,1986,2.2,5.8,30.1,30.2,2,2014
+176,Dudgeon-Monroe Neighborhood Association,3181,90.8,328679.0,1930,49,48,1930,9.2,6.1,18.5,26.7,6,2014
+181,Monona Bay Neighborhood Association,1138,53.4,268494.0,1971,35,42,1971,7.5,7.2,14.7,11.3,12,2014
+120,Richmond Hill Homeowners Association,395,85.3,350148.0,1997,0,3,1997,11.1,8.0,26.3,39.1,0,2014
+146,Midvale Heights Community Association,3479,83.6,238687.0,1958,40,76,1958,18.3,7.2,20.1,25.0,7,2014
+163,Skyview Meadows Neighborhood Association,532,81.4,199613.0,1987,2,11,1987,4.7,6.8,20.8,30.1,0,2014
+99,Mayfair Park Neighborhood Association,593,64.9,142867.0,1958,77,127,1958,9.4,6.4,22.3,24.9,32,2014
+136,Regent Neighborhood Association,6344,85.2,412188.0,1931,58,112,1931,6.2,6.4,12.4,15.4,23,2014
+142,Faircrest Neighborhood Association,1191,80.2,304143.0,1965,13,20,1965,15.7,6.2,19.5,25.2,1,2014
+130,Wisconsin Co-op Housing Association,355,91.9,217009.0,1950,0,2,1950,16.2,5.6,21.2,28.3,0,2014
+156,Capitol View Neighborhood Association,388,40.5,143684.0,1966,4,7,1966,5.9,5.2,29.5,28.8,3,2014
+93,Nobel Park Neighborhood Association,353,72.2,134558.0,1955,10,15,1955,9.4,7.6,20.7,22.2,3,2014
+94,Berkley Oaks Neighborhood Association,1399,48.8,135711.0,1963,26,58,1963,10.6,6.8,27.1,24.8,29,2014
+85,Sherman Village Neighborhood Association,2283,82.2,145948.0,1965,11,33,1965,19.3,7.1,19.8,21.3,9,2014
+353,Twin Oaks Neighborhood Association,191,52.3,172713.0,2005,4,10,2005,0.9,8.0,42.6,57.8,0,2014
+113,Rolling Meadows Neighborhood Association,2366,84.1,162302.0,1966,30,53,1966,15.0,6.0,20.7,26.8,13,2014
+355,Indian Springs Neighborhood Association,603,63.3,174789.0,1991,4,7,1991,4.4,7.1,29.2,39.2,0,2014
+145,Oakbridge Community Neighborhood Association,343,81.5,219094.0,1984,0,4,1984,6.5,4.9,19.7,26.2,1,2014
+155,Greentree Neighborhood Association,1841,76.7,218156.0,1967,18,70,1967,15.0,6.5,22.7,29.7,10,2014
+135,Junction Ridge Neighborhood Association,1628,80.6,249965.0,1999,48,53,1999,30.9,7.4,10.5,10.3,6,2014
+166,Glacier Ridge Neighborhood Association,1385,83.3,243540.0,2002,1,8,2002,2.7,7.4,27.9,39.7,0,2014
+112,Heritage Heights Community Association,2240,89.9,190865.0,1975,11,51,1975,15.1,5.5,20.5,29.0,2,2014
+123,Lake Edge Neighborhood Association,2380,88.5,163222.0,1951,35,63,1951,12.9,3.9,18.0,21.7,14,2014
+101,Ridgewood Neighborhood Association,3989,57.5,197907.0,1995,28,85,1995,3.8,6.7,27.0,35.0,11,2014
+131,Parkwood Hills Community Association,1274,87.5,331059.0,1972,32,35,1972,18.3,6.1,23.5,28.9,5,2014
+128,Walnut Grove Homeowners Association,981,80.7,275148.0,1977,4,11,1977,15.4,5.6,21.3,28.6,1,2014
+352,Woodland Hills Neighborhood Association,682,81.8,287357.0,1985,0,15,1985,11.9,7.1,14.8,19.2,0,2014
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,129700.0,1964,61,130,1964,4.1,6.4,34.6,39.6,61,2014
+97,Sherman Neighborhood Association,2695,72.4,142267.0,1954,91,165,1954,11.3,6.7,19.4,20.4,27,2014
+86,Westchester Gardens Neighborhood Association,1302,65.7,162484.0,1985,58,73,1985,4.2,7.2,24.8,31.0,11,2014
+107,Hiestand Neighborhood Association,3560,58.9,174249.0,1978,34,110,1978,10.7,5.6,25.2,32.3,29,2014
+164,Westhaven Trails Homeowners Assoc,1956,66.2,194430.0,1990,16,44,1990,2.8,6.5,26.5,33.3,8,2014
+95,Mendota Hills Neighborhood Association,364,82.6,171052.0,1959,2,3,1959,16.6,6.1,17.7,21.8,0,2014
+92,Lerdahl Park Neighborhood Association,925,80.4,277825.0,1966,6,23,1966,16.4,6.3,16.6,20.5,7,2014
+138,"Hill Farms, University Neighborhood Association",2942,76.4,304785.0,1960,9,37,1960,20.5,6.8,19.0,22.2,0,2014
+165,Maple-Prairie Neighborhood Association,1732,79.6,230323.0,1993,6,42,1993,3.5,7.8,21.7,26.9,1,2014
+159,Meadowood Neighborhood Association,2962,68.6,167362.0,1964,31,107,1964,12.6,7.0,25.3,29.7,21,2014
+89,Whitetail Ridge,507,76.2,177386.0,1995,1,6,1995,2.7,7.9,25.4,34.3,4,2014
+103,Hawthorne Neighborhood Association,1090,66.0,127452.0,1955,34,51,1955,8.4,6.0,20.5,21.7,14,2014
+500,Dunn's Marsh Neighborhood Association,2356,32.1,129700.0,1964,61,130,1964,4.1,6.4,34.6,39.6,61,2014
+129,Sunset Village Neighborhood Association,1842,87.4,251452.0,1948,17,26,1948,13.0,5.3,17.7,20.3,3,2014
+125,Blackhawk Homeowners Association,2168,83.4,557001.0,2000,2,14,2000,5.3,7.6,29.3,37.4,1,2014
+110,McClellan Park Neighborhood Association,2227,81.7,234191.0,2005,9,31,2005,21.1,7.1,22.3,27.5,5,2014
+90,Bluff Acres Neighborhood Association,3725,67.6,174212.0,1981,61,132,1981,7.7,6.6,18.3,20.1,35,2014
+354,Cardinal Glenn Neighborhood Association,162,77.2,249057.0,2010,3,3,2010,1.7,7.8,22.8,35.9,0,2014
+98,Brentwood Village Association,1128,63.2,179663.0,1962,15,47,1962,14.9,7.5,20.7,22.4,18,2014
+153,Burr Oaks Neighborhood Association,1744,20.1,137845.0,1962,72,137,1962,3.8,6.4,30.4,35.3,43,2014
+141,Greenbush Neighborhood Association,2878,88.8,254838.0,1920,67,115,1920,3.1,6.5,5.6,9.0,46,2014
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,145673.0,1970,44,136,1970,7.0,6.7,16.6,18.9,13,2014
+139,Glendale Neighborhood Association,2233,79.1,173629.0,1958,42,74,1958,16.4,5.1,19.8,24.7,20,2014
+150,Nakoma League,1778,93.8,434765.0,1938,19,15,1938,14.3,6.9,25.6,36.8,1,2014
+84,Cherokee Park Neighborhood Association,1431,94.8,256289.0,1983,1,15,1983,35.1,5.8,9.0,9.4,0,2014
+105,Eken Park Neighborhood Association,2505,78.3,134585.0,1948,38,98,1948,6.8,7.2,15.0,16.3,27,2014
+169,Orchard Ridge Neighborhood Association,2262,87.6,208224.0,1964,45,95,1964,21.3,7.2,17.4,21.0,9,2014
+175,Greystone,283,80.8,372563.0,2004,0,1,2004,5.0,7.7,32.1,47.6,0,2014
+88,High Crossing Neighborhood Association,1020,75.5,,2002,13,51,2002,11.9,6.1,14.8,15.2,4,2014
+140,Vilas Neighborhood Association,1881,90.8,450096.0,1921,25,54,1921,6.6,5.9,13.4,20.1,6,2014
+87,North Lake Mendota Neighborhood Association,898,86.3,238868.0,1992,1,7,1992,8.8,6.3,15.1,27.2,0,2014
+144,Tamarack Trails Community Condominium Association,464,58.0,210447.0,1978,0,9,1978,25.5,5.6,26.4,30.1,0,2014
+161,Arbor Hills Neighborhood Association,1102,75.8,251856.0,1970,9,22,1970,18.3,6.2,20.2,24.7,4,2014
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,225054.0,1925,83,187,1925,6.2,6.4,15.6,17.7,31,2014
+132,East Buckeye Neighborhood Association,2043,85.2,189909.0,1985,6,12,1985,5.8,6.9,23.0,32.9,2,2014
+106,Emerson East Neighborhood Association,2042,83.9,172265.0,1925,47,113,1925,5.7,8.1,16.7,19.5,23,2014
+170,Stone Meadows Neighborhood Association,3118,78.8,222594.0,2000,23,54,2000,6.3,6.9,27.4,42.9,2,2014
+104,Burke Heights Neighborhood Association,607,67.3,143716.0,1973,25,184,1973,13.1,6.3,22.6,26.1,7,2014
+91,Lake View Hill Neighborhood Association,1192,69.4,160493.0,1961,17,54,1961,12.9,6.1,22.0,26.1,17,2014
+160,Prairie Hills Neighborhood Association,3350,57.2,181987.0,1977,28,106,1977,6.3,6.9,30.1,34.4,27,2014
+108,Worthington Park Neighborhood Association,701,30.7,125729.0,1959,4,33,1959,2.5,5.8,38.6,45.8,20,2014
+102,Sheridan Triangle Neighborhood Association,340,91.9,144802.0,1947,2,4,1947,17.3,5.4,14.5,17.0,0,2014
+133,Glen Oak Hills Neighborhood Association,844,87.7,195412.0,1956,10,13,1956,16.7,5.8,14.9,18.1,0,2014
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,382998.0,1990,2,2,1990,17.5,6.7,18.2,24.9,0,2014
+149,Waunona Neighborhood Association,1027,71.0,335369.0,1959,7,19,1959,14.5,7.5,20.8,22.9,4,2014
+118,Wexford Village Homeowners Association,2506,84.3,283566.0,1992,15,19,1992,15.6,7.4,19.7,22.5,1,2014
+172,Oakwood Village Association,119,98.3,,1975,1,4,1975,97.9,7.0,0.0,0.0,0,2014
+350,Marbella Condominium Association,463,78.8,,1995,1,10,1995,23.0,7.4,10.1,11.1,0,2014
+143,Wexford Ridge Neighborhood,400,27.3,,1976,5,27,1976,10.7,7.2,39.9,51.9,12,2014
+178,Leopold Neighborhood Association,1105,44.98,,1981,18,36,1981,5.33,7.9,27.13,29.3,19,2014
+116,University Apartments Assembly,2643,29.9,,1963,0,3,1963,0.5,4.0,26.8,39.8,2,2014
+348,State-Langdon Neighborhood Association,10144,78.9,,1966,116,490,1966,0.2,7.8,0.3,0.3,104,2014
+137,South Campus Property Owners Association,4194,80.5,,1992,42,127,1992,0.3,7.6,0.1,0.1,16,2014
+161,Arbor Hills Neighborhood Association,1101,75.8,264829.0,1970,13,19,1970,18.3,5.9,20.2,24.7,2,2015
+90,Bluff Acres Neighborhood Association,3725,67.6,179842.0,1982,58,137,1982,7.7,7.1,18.3,20.1,22,2015
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,133927.0,1964,64,96,1964,4.1,6.3,34.6,39.6,27,2015
+357,Secret Places Neighborhood Association,473,84.1,258312.0,2008,0,2,2008,2.3,7.9,33.5,55.4,0,2015
+104,Burke Heights Neighborhood Association,607,67.3,155200.0,1973,35,133,1973,13.1,7.2,22.6,26.1,10,2015
+95,Mendota Hills Neighborhood Association,364,82.6,172703.0,1959,1,5,1959,16.6,6.0,17.7,21.8,0,2015
+98,Brentwood Village Association,1128,63.2,179330.0,1962,20,35,1962,14.9,7.0,20.7,22.4,14,2015
+120,Richmond Hill Homeowners Association,395,85.3,349723.0,1997,0,1,1997,11.1,7.0,26.3,39.1,0,2015
+94,Berkley Oaks Neighborhood Association,1399,48.8,135377.0,1963,37,73,1963,10.6,6.0,27.1,24.8,24,2015
+135,Junction Ridge Neighborhood Association,1628,80.6,264695.0,1999,53,57,1999,30.9,7.7,10.5,10.3,1,2015
+144,Tamarack Trails Community Condominium Association,464,58.0,217092.0,1978,1,3,1978,25.5,5.6,26.4,30.1,0,2015
+153,Burr Oaks Neighborhood Association,1745,20.1,136863.0,1962,71,103,1962,3.8,6.5,30.4,35.3,31,2015
+156,Capitol View Neighborhood Association,388,40.5,139443.0,1966,6,10,1966,5.9,5.0,29.5,28.8,1,2015
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,406595.0,1990,0,6,1990,17.5,7.2,18.2,24.9,0,2015
+354,Cardinal Glenn Neighborhood Association,162,77.2,259616.0,2013,4,1,2013,1.7,8.4,22.8,35.9,0,2015
+500,Dunn's Marsh Neighborhood Association,2356,32.1,133927.0,1964,64,96,1964,4.1,6.3,34.6,39.6,27,2015
+352,Woodland Hills Neighborhood Association,682,81.8,306889.0,1985,3,11,1985,11.9,7.1,14.8,19.2,0,2015
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,146653.0,1972,40,74,1972,7.0,6.2,16.6,18.9,13,2015
+132,East Buckeye Neighborhood Association,2043,85.2,195179.0,1986,11,19,1986,5.8,6.1,23.0,32.9,1,2015
+105,Eken Park Neighborhood Association,2505,78.3,135518.0,1948,43,112,1948,6.8,6.8,15.0,16.3,9,2015
+106,Emerson East Neighborhood Association,2042,83.9,182796.0,1925,47,85,1925,5.7,7.7,16.7,19.5,23,2015
+142,Faircrest Neighborhood Association,1191,80.2,312361.0,1965,15,25,1965,15.7,6.5,19.5,25.2,2,2015
+133,Glen Oak Hills Neighborhood Association,844,87.7,204145.0,1956,7,23,1956,16.7,5.9,14.9,18.1,0,2015
+139,Glendale Neighborhood Association,2233,79.1,177512.0,1958,51,95,1958,16.4,5.4,19.8,24.7,16,2015
+141,Greenbush Neighborhood Association,2878,88.8,262964.0,1921,61,116,1921,3.1,7.3,5.6,9.0,45,2015
+155,Greentree Neighborhood Association,1841,76.7,225562.0,1967,10,41,1967,15.0,6.2,22.7,29.7,0,2015
+103,Hawthorne Neighborhood Association,1090,66.0,128005.0,1955,38,65,1955,8.4,6.0,20.5,21.7,8,2015
+138,"Hill Farms, University Neighborhood Association",2942,76.4,307022.0,1960,10,30,1960,20.5,7.2,19.0,22.2,3,2015
+107,Hiestand Neighborhood Association,3560,58.9,174804.0,1978,35,75,1978,10.7,6.2,25.2,32.3,13,2015
+112,Heritage Heights Community Association,2240,89.9,200293.0,1975,13,35,1975,15.1,6.3,20.5,29.0,4,2015
+355,Indian Springs Neighborhood Association,604,63.3,178518.0,1991,0,6,1991,4.4,7.9,29.2,39.2,1,2015
+165,Maple-Prairie Neighborhood Association,1732,79.6,239489.0,1993,10,20,1993,3.5,6.5,21.7,26.9,0,2015
+85,Sherman Village Neighborhood Association,2283,82.2,153662.0,1965,9,34,1965,19.3,6.6,19.8,21.3,1,2015
+123,Lake Edge Neighborhood Association,2380,88.5,163842.0,1952,34,68,1952,12.9,4.1,18.0,21.7,10,2015
+91,Lake View Hill Neighborhood Association,1192,69.4,163527.0,1961,22,28,1961,12.9,5.7,22.0,26.1,8,2015
+169,Orchard Ridge Neighborhood Association,2262,87.6,218192.0,1964,54,98,1964,21.3,6.7,17.4,21.0,3,2015
+92,Lerdahl Park Neighborhood Association,925,80.4,288411.0,1966,13,23,1966,16.4,5.9,16.6,20.5,4,2015
+86,Westchester Gardens Neighborhood Association,1302,65.7,168953.0,1985,56,57,1985,4.2,7.4,24.8,31.0,11,2015
+159,Meadowood Neighborhood Association,2962,68.6,171578.0,1964,24,138,1964,12.6,6.7,25.3,29.7,17,2015
+130,Wisconsin Co-op Housing Association,355,91.9,237526.0,1950,1,4,1950,16.2,6.1,21.2,28.3,0,2015
+114,Marquette Neighborhood Association,4909,88.8,334072.0,1916,135,156,1916,4.7,6.2,12.8,15.4,27,2015
+150,Nakoma League,1778,93.8,444642.0,1938,19,25,1938,14.3,6.2,25.6,36.8,1,2015
+87,North Lake Mendota Neighborhood Association,898,86.3,248706.0,1992,5,12,1992,8.8,6.0,15.1,27.2,1,2015
+101,Ridgewood Neighborhood Association,3989,57.5,206148.0,1995,31,66,1995,3.8,7.7,27.0,35.0,8,2015
+97,Sherman Neighborhood Association,2695,72.4,147085.0,1954,77,116,1954,11.3,6.2,19.4,20.4,31,2015
+113,Rolling Meadows Neighborhood Association,2366,84.1,166651.0,1966,22,55,1966,15.0,6.3,20.7,26.8,10,2015
+134,Sauk Creek Neighborhood Association,1029,79.5,362975.0,1990,3,17,1990,11.6,7.8,23.2,29.6,2,2015
+102,Sheridan Triangle Neighborhood Association,340,91.9,144421.0,1947,2,4,1947,17.3,4.6,14.5,17.0,1,2015
+93,Nobel Park Neighborhood Association,353,72.2,134554.0,1955,9,10,1955,9.4,7.0,20.7,22.2,3,2015
+128,Walnut Grove Homeowners Association,981,80.7,283503.0,1977,2,15,1977,15.4,5.7,21.3,28.6,0,2015
+140,Vilas Neighborhood Association,1881,90.8,477405.0,1921,29,58,1921,6.6,6.9,13.4,20.1,5,2015
+117,Spring Harbor Neighborhood Association,2224,78.0,337401.0,1959,20,41,1959,12.2,4.7,17.4,20.7,5,2015
+164,Westhaven Trails Homeowners Assoc,1956,66.2,199937.0,1990,10,28,1990,2.8,6.9,26.5,33.3,3,2015
+118,Wexford Village Homeowners Association,2506,84.3,299154.0,1992,9,12,1992,15.6,7.5,19.7,22.5,0,2015
+108,Worthington Park Neighborhood Association,701,30.7,131860.0,1959,11,32,1959,2.5,5.0,38.6,45.8,10,2015
+125,Blackhawk Homeowners Association,2168,83.4,583266.0,2000,5,11,2000,5.3,7.8,29.3,37.4,0,2015
+170,Stone Meadows Neighborhood Association,3118,78.8,228928.0,2000,17,44,2000,6.3,7.9,27.4,42.9,2,2015
+167,Country Grove Neighborhood Association,917,84.7,322540.0,1996,2,11,1996,5.6,7.4,31.9,44.8,0,2015
+160,Prairie Hills Neighborhood Association,3350,57.2,183692.0,1977,38,80,1977,6.3,6.2,30.1,34.4,14,2015
+99,Mayfair Park Neighborhood Association,593,64.9,150217.0,1961,91,121,1961,9.4,6.7,22.3,24.9,11,2015
+89,Whitetail Ridge,507,76.2,177514.0,1995,1,7,1995,2.7,7.6,25.4,34.3,0,2015
+166,Glacier Ridge Neighborhood Association,1385,83.3,254516.0,2002,3,7,2002,2.7,7.9,27.9,39.7,1,2015
+353,Twin Oaks Neighborhood Association,191,52.3,179623.0,2005,2,6,2005,0.9,7.0,42.6,57.8,0,2015
+351,Rocky Bluff Neighborhood Association,1038,76.8,247233.0,1956,31,18,1956,5.6,5.9,9.6,11.1,0,2015
+175,Greystone,283,80.8,392338.0,2004,1,0,2004,5.0,7.7,32.1,47.7,0,2015
+110,McClellan Park Neighborhood Association,2227,81.7,237307.0,2006,16,40,2006,21.1,7.8,22.3,27.5,2,2015
+143,Wexford Ridge Neighborhood,400,27.3,,1976,2,33,1976,10.7,7.2,39.9,51.9,10,2015
+145,Oakbridge Community Neighborhood Association,343,81.5,224802.0,1984,1,8,1984,6.5,5.1,19.7,26.2,1,2015
+84,Cherokee Park Neighborhood Association,648,93.6,286657.0,1977,3,3,1977,18.0,6.8,17.6,23.0,0,2015
+149,Waunona Neighborhood Association,1027,71.0,345520.0,1959,6,14,1959,14.5,7.0,20.8,22.9,0,2015
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,230954.0,1925,113,185,1925,6.2,6.1,15.6,17.7,28,2015
+131,Parkwood Hills Community Association,1274,87.5,350445.0,1972,24,67,1972,18.3,6.2,23.5,28.9,3,2015
+151,Bram's Addition Neighborhood Association,1282,24.4,113830.0,1965,37,82,1965,8.5,6.5,30.9,31.0,13,2015
+129,Sunset Village Neighborhood Association,1842,87.4,258039.0,1948,21,12,1948,13.0,5.8,17.7,20.3,0,2015
+177,Summit Woods Neighborhood Association,721,85.1,214472.0,1966,12,16,1966,12.7,6.3,14.2,16.6,1,2015
+121,Elvehjem Neighborhood Association,4165,81.8,181806.0,1968,27,58,1968,15.2,5.8,21.9,27.3,12,2015
+148,Bay Creek Neighborhood Association,2401,83.6,243522.0,1948,47,124,1948,11.1,6.0,14.8,15.7,7,2015
+136,Regent Neighborhood Association,6421,85.3,426453.0,1931,70,121,1931,6.3,6.8,12.6,15.6,18,2015
+126,Capitol Neighborhoods,13845,82.0,272861.0,1969,350,738,1969,5.2,6.3,1.4,1.4,143,2015
+176,Dudgeon-Monroe Neighborhood Association,3180,90.8,340339.0,1930,52,66,1930,9.2,6.3,18.5,26.7,3,2015
+163,Skyview Meadows Neighborhood Association,634,83.0,205383.0,1987,6,4,1987,5.3,7.0,20.6,30.2,3,2015
+111,Eastmorland Community Association,3166,89.6,152276.0,1953,76,165,1953,14.1,6.2,16.3,19.4,10,2015
+146,Midvale Heights Community Association,3479,83.6,247696.0,1958,46,72,1958,18.3,6.4,20.1,25.0,4,2015
+137,South Campus Property Owners Association,4194,80.5,,1992,44,119,1992,0.3,7.7,0.1,0.1,15,2015
+115,Tenney-Lapham Neighborhood Association,4149,87.1,311654.0,1916,80,141,1916,3.4,7.1,9.5,9.8,16,2015
+147,Westmorland Neighborhood Association,2207,91.7,271111.0,1951,11,14,1951,15.0,6.3,22.2,28.9,1,2015
+152,High Point Estates,853,71.8,434198.0,1992,4,13,1992,8.4,7.0,28.8,36.9,0,2015
+158,Park Ridge Neighborhood Association,488,48.3,132789.0,1986,8,14,1986,2.2,6.4,30.1,30.2,4,2015
+109,Sprecher East Neighborhood Association,2206,86.2,229481.0,2003,10,21,2003,6.0,7.5,23.6,31.1,1,2015
+181,Monona Bay Neighborhood Association,1138,53.3,273667.0,1971,27,43,1971,7.5,7.3,14.7,11.3,6,2015
+1,City of Madison,232687,75.6,248621.0,1972,10993,8816,1972,9.6,6.6,17.5,20.8,1221,2015
+174,Hawk's Landing Neighborhood Association,1503,85.6,543555.0,2004,5,5,2004,6.2,7.3,29.7,36.6,0,2015
+172,Oakwood Village Association,119,98.3,,1975,1,6,1975,97.9,7.9,0.0,0.0,1,2015
+350,Marbella Condominium Association,463,78.8,,1995,3,7,1995,23.0,7.8,10.1,11.1,1,2015
+116,University Apartments Assembly,2643,29.9,,1963,4,1,1963,0.5,4.0,26.8,39.8,0,2015
+178,Leopold Neighborhood Association,1106,45.0,,1981,15,43,1981,5.3,7.1,27.1,29.3,18,2015
+88,High Crossing Neighborhood Association,1020,75.5,,2002,22,38,2002,11.9,6.3,14.8,15.2,3,2015
+348,State-Langdon Neighborhood Association,10144,78.9,,1969,117,385,1969,0.2,7.1,0.3,0.3,93,2015
+359,Madison West Neighborhood Association,11657,72.7,309356.0,2002,91,340,2002,5.1,7.4,21.0,24.7,25,2016
+1,City of Madison,232830,75.7,252399.0,1976,10457,8927,1976,9.6,6.6,17.5,20.8,1122,2016
+95,Mendota Hills Neighborhood Association,364,82.6,180593.0,1959,0,4,1959,16.6,6.2,17.7,21.8,0,2016
+175,Greystone,283,80.8,330400.0,2005,0,0,2005,5.0,6.8,32.1,47.7,0,2016
+99,Mayfair Park Neighborhood Association,593,64.9,146794.0,1964,76,152,1964,9.4,6.3,22.3,24.9,11,2016
+137,South Campus Property Owners Association,4194,80.5,,1989,47,131,1989,0.3,7.6,0.1,0.1,21,2016
+177,Summit Woods Neighborhood Association,721,85.1,224606.0,1966,8,25,1966,12.7,6.3,14.2,16.6,0,2016
+89,Whitetail Ridge,507,76.2,186505.0,1995,0,6,1995,2.7,7.6,25.4,34.3,1,2016
+134,Sauk Creek Neighborhood Association,1029,79.5,374295.0,1992,12,22,1992,11.6,7.3,23.2,29.6,1,2016
+351,Rocky Bluff Neighborhood Association,1038,76.8,252928.0,1957,27,20,1957,5.6,5.9,9.6,11.1,2,2016
+354,Cardinal Glenn Neighborhood Association,162,77.2,238000.0,2015,3,0,2015,1.7,7.9,22.8,35.9,0,2016
+151,Bram's Addition Neighborhood Association,1282,24.4,108870.0,1965,37,76,1965,8.5,6.7,30.9,31.0,12,2016
+352,Woodland Hills Neighborhood Association,682,81.8,318451.0,1985,2,7,1985,11.9,6.0,14.8,19.2,0,2016
+132,East Buckeye Neighborhood Association,2043,85.2,206063.0,1986,10,23,1986,5.8,6.6,23.0,32.9,6,2016
+172,Oakwood Village Association,119,98.3,,1975,5,2,1975,97.9,7.9,0.0,0.0,0,2016
+102,Sheridan Triangle Neighborhood Association,340,91.9,156183.0,1947,1,7,1947,17.3,4.8,14.5,17.0,0,2016
+130,Wisconsin Co-op Housing Association,355,91.9,244026.0,1950,0,5,1950,16.2,5.9,21.2,28.3,0,2016
+86,Westchester Gardens Neighborhood Association,1302,65.7,180596.0,1986,43,84,1986,4.2,7.0,24.8,31.0,19,2016
+357,Secret Places Neighborhood Association,473,84.1,317450.0,2011,0,0,2011,2.3,8.3,33.5,55.4,0,2016
+361,Truax Neighborhood Association,191,19.5,,2014,4,7,2014,2.7,4.8,43.3,55.3,7,2016
+358,Liberty Place Neighborhood Association,432,65.7,220197.0,2005,0,2,2005,0.7,8.0,30.7,45.0,0,2016
+84,Cherokee Park Neighborhood Association,648,93.6,289616.0,1977,0,6,1977,18.0,7.0,17.6,23.0,0,2016
+161,Arbor Hills Neighborhood Association,1101,75.8,266449.0,1970,7,12,1970,18.3,6.2,20.2,24.7,1,2016
+129,Sunset Village Neighborhood Association,1842,87.4,270689.0,1948,19,25,1948,13.0,5.5,17.7,20.3,0,2016
+94,Berkley Oaks Neighborhood Association,1399,48.8,140052.0,1964,48,80,1964,10.6,6.6,27.1,24.8,16,2016
+93,Nobel Park Neighborhood Association,353,72.2,140472.0,1955,11,16,1955,9.4,7.6,20.7,22.2,0,2016
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,138197.0,1964,53,107,1964,4.1,6.6,34.6,39.6,19,2016
+166,Glacier Ridge Neighborhood Association,1385,83.3,259957.0,2002,3,7,2002,2.7,7.6,27.9,39.7,0,2016
+165,Maple-Prairie Neighborhood Association,1732,79.6,247586.0,1993,7,31,1993,3.5,7.0,21.7,26.9,3,2016
+90,Bluff Acres Neighborhood Association,3725,67.6,188283.0,1980,67,110,1980,7.7,6.7,18.3,20.1,13,2016
+148,Bay Creek Neighborhood Association,2401,83.6,253288.0,1949,60,97,1949,11.1,5.9,14.8,15.7,10,2016
+164,Westhaven Trails Homeowners Assoc,1956,66.2,207603.0,1990,7,14,1990,2.8,6.6,26.5,33.3,3,2016
+98,Brentwood Village Association,1128,63.2,192454.0,1962,9,21,1962,14.9,7.1,20.7,22.4,12,2016
+104,Burke Heights Neighborhood Association,607,67.3,161971.0,1973,40,118,1973,13.1,6.5,22.6,26.1,10,2016
+353,Twin Oaks Neighborhood Association,192,52.3,185660.0,2005,1,11,2005,0.9,8.0,42.6,57.8,1,2016
+153,Burr Oaks Neighborhood Association,1745,20.1,138501.0,1962,73,126,1962,3.8,6.5,30.4,35.3,24,2016
+500,Dunn's Marsh Neighborhood Association,2356,32.1,138197.0,1964,53,107,1964,4.1,6.6,34.6,39.6,19,2016
+167,Country Grove Neighborhood Association,917,84.7,323197.0,1996,0,4,1996,5.6,7.4,31.9,44.8,2,2016
+126,Capitol Neighborhoods,13845,82.0,277681.0,1979,371,799,1979,5.2,6.7,1.4,1.4,131,2016
+133,Glen Oak Hills Neighborhood Association,844,87.7,211761.0,1956,6,9,1956,16.7,5.6,14.9,18.1,1,2016
+156,Capitol View Neighborhood Association,388,40.5,147989.0,1966,5,5,1966,5.9,5.1,29.5,28.8,0,2016
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,149127.0,1986,32,93,1986,7.0,6.2,16.6,18.9,4,2016
+144,Tamarack Trails Community Condominium Association,464,58.0,230430.0,1978,2,5,1978,25.5,7.8,26.4,30.1,0,2016
+176,Dudgeon-Monroe Neighborhood Association,3181,90.8,358257.0,1931,37,39,1931,9.2,6.0,18.5,26.7,4,2016
+111,Eastmorland Community Association,3166,89.6,159007.0,1953,81,153,1953,14.1,6.2,16.3,19.4,11,2016
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,423600.0,1990,0,12,1990,17.5,6.7,18.2,24.9,0,2016
+105,Eken Park Neighborhood Association,2505,78.3,140294.0,1948,57,74,1948,6.8,7.0,15.0,16.3,14,2016
+121,Elvehjem Neighborhood Association,4165,81.8,190698.0,1969,38,59,1969,15.2,6.4,21.9,27.3,9,2016
+106,Emerson East Neighborhood Association,2042,83.9,189153.0,1926,51,87,1926,5.7,7.9,16.7,19.5,20,2016
+139,Glendale Neighborhood Association,2233,79.1,179538.0,1958,46,99,1958,16.4,5.3,19.8,24.7,14,2016
+103,Hawthorne Neighborhood Association,1090,66.0,134266.0,1955,32,61,1955,8.4,5.8,20.5,21.7,11,2016
+141,Greenbush Neighborhood Association,2878,88.8,275235.0,1925,62,108,1925,3.1,6.9,5.6,9.0,39,2016
+155,Greentree Neighborhood Association,1841,76.7,235504.0,1967,8,48,1967,15.0,6.7,22.7,29.7,2,2016
+107,Hiestand Neighborhood Association,3560,58.9,174596.0,1979,38,87,1979,10.7,6.1,25.2,32.3,11,2016
+112,Heritage Heights Community Association,2240,89.9,208022.0,1975,12,31,1975,15.1,6.3,20.5,29.0,3,2016
+138,"Hill Farms, University Neighborhood Association",2942,76.4,315778.0,1960,16,29,1960,20.5,6.7,19.0,22.2,2,2016
+355,Indian Springs Neighborhood Association,604,63.3,184079.0,1991,2,3,1991,4.4,7.9,29.2,39.2,1,2016
+123,Lake Edge Neighborhood Association,2380,88.5,170322.0,1951,37,51,1951,12.9,4.7,18.0,21.7,6,2016
+91,Lake View Hill Neighborhood Association,1192,69.4,172953.0,1962,14,38,1962,12.9,6.0,22.0,26.1,4,2016
+131,Parkwood Hills Community Association,1274,87.5,360434.0,1972,18,58,1972,18.3,5.7,23.5,28.9,2,2016
+145,Oakbridge Community Neighborhood Association,343,81.5,242902.0,1984,2,8,1984,6.5,5.0,19.7,26.2,0,2016
+128,Walnut Grove Homeowners Association,981,80.7,297484.0,1977,3,8,1977,15.4,5.3,21.3,28.6,0,2016
+92,Lerdahl Park Neighborhood Association,925,80.4,304600.0,1966,5,35,1966,16.4,6.2,16.6,20.5,4,2016
+169,Orchard Ridge Neighborhood Association,2262,87.6,223551.0,1964,38,85,1964,21.3,7.0,17.4,21.0,10,2016
+114,Marquette Neighborhood Association,4909,88.8,346120.0,1917,130,144,1917,4.7,7.0,12.8,15.4,17,2016
+159,Meadowood Neighborhood Association,2962,68.6,175583.0,1964,20,143,1964,12.6,6.9,25.3,29.7,13,2016
+146,Midvale Heights Community Association,3479,83.6,255735.0,1958,47,67,1958,18.3,6.6,20.1,25.0,6,2016
+150,Nakoma League,1778,93.8,457167.0,1938,14,30,1938,14.3,6.5,25.6,36.8,1,2016
+87,North Lake Mendota Neighborhood Association,898,86.3,253499.0,1992,5,11,1992,8.8,6.7,15.1,27.2,1,2016
+136,Regent Neighborhood Association,6421,85.3,443589.0,1937,67,135,1937,6.3,6.5,12.6,15.6,10,2016
+120,Richmond Hill Homeowners Association,395,85.3,337430.0,1997,1,1,1997,11.1,8.0,26.3,39.1,0,2016
+113,Rolling Meadows Neighborhood Association,2366,84.1,171893.0,1966,22,45,1966,15.0,5.9,20.7,26.8,6,2016
+101,Ridgewood Neighborhood Association,3992,57.5,216505.0,1995,26,89,1995,3.8,7.1,27.0,35.0,13,2016
+97,Sherman Neighborhood Association,2695,72.4,154508.0,1954,84,142,1954,11.3,6.8,19.4,20.4,32,2016
+85,Sherman Village Neighborhood Association,2283,82.2,160503.0,1966,9,39,1966,19.3,6.9,19.8,21.3,2,2016
+147,Westmorland Neighborhood Association,2207,91.7,280289.0,1951,14,36,1951,15.0,5.9,22.2,28.9,1,2016
+142,Faircrest Neighborhood Association,1191,80.2,320705.0,1965,10,18,1965,15.7,6.2,19.5,25.2,0,2016
+117,Spring Harbor Neighborhood Association,2224,78.0,353821.0,1959,19,38,1959,12.2,4.4,17.4,20.7,3,2016
+181,Monona Bay Neighborhood Association,1138,53.3,295102.0,1976,41,44,1976,7.5,6.9,14.7,11.3,11,2016
+140,Vilas Neighborhood Association,1881,90.8,496125.0,1921,30,52,1921,6.6,6.6,13.4,20.1,4,2016
+115,Tenney-Lapham Neighborhood Association,4149,87.1,329380.0,1925,77,149,1925,3.4,7.5,9.5,9.8,14,2016
+118,Wexford Village Homeowners Association,2506,84.3,318482.0,1992,11,40,1992,15.6,6.6,19.7,22.5,0,2016
+108,Worthington Park Neighborhood Association,701,30.7,140164.0,1960,7,33,1960,2.5,5.1,38.6,45.8,8,2016
+135,Junction Ridge Neighborhood Association,1628,80.6,271310.0,2000,51,60,2000,30.9,6.8,10.5,10.3,3,2016
+125,Blackhawk Homeowners Association,2168,83.4,559197.0,2001,3,8,2001,5.3,6.9,29.3,37.4,0,2016
+170,Stone Meadows Neighborhood Association,3118,78.8,236474.0,2000,10,42,2000,6.3,7.3,27.4,42.9,6,2016
+160,Prairie Hills Neighborhood Association,3350,57.2,189544.0,1977,34,102,1977,6.3,6.4,30.1,34.4,23,2016
+110,McClellan Park Neighborhood Association,2230,81.7,247002.0,2007,22,58,2007,21.0,7.4,22.3,27.5,4,2016
+109,Sprecher East Neighborhood Association,2233,86.4,239376.0,2004,12,14,2004,6.1,7.5,23.6,31.1,2,2016
+349,Majestic Oaks Neighborhood Association,467,86.7,,1935,5,20,1935,23.2,4.1,8.8,8.2,1,2016
+149,Waunona Neighborhood Association,1027,71.0,364790.0,1959,4,26,1959,14.5,7.5,20.8,22.9,2,2016
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,241485.0,1925,113,203,1925,6.2,6.3,15.6,17.7,25,2016
+178,Leopold Neighborhood Association,1106,45.0,,1981,16,33,1981,5.3,7.4,27.1,29.3,9,2016
+162,Highland Manor Home Owners Association,344,61.5,,1971,4,7,1971,16.5,8.0,20.0,21.5,0,2016
+116,University Apartments Assembly,2643,29.9,,1963,0,1,1963,0.5,4.0,26.8,39.8,0,2016
+350,Marbella Condominium Association,463,78.8,,1996,0,7,1996,23.0,7.1,10.1,11.1,0,2016
+143,Wexford Ridge Neighborhood,400,27.3,,1976,7,28,1976,10.7,7.7,39.9,51.9,3,2016
+88,High Crossing Neighborhood Association,1020,75.5,,2003,16,48,2003,11.9,6.1,14.8,15.2,8,2016
+348,State-Langdon Neighborhood Association,10144,78.9,,1967,98,409,1967,0.2,7.6,0.3,0.3,80,2016
+95,Mendota Hills Neighborhood Association,364,82.6,187764.0,1959,1,10,1959,16.6,5.5,17.7,21.8,1,2017
+170,Stone Meadows Neighborhood Association,3118,78.8,250292.0,2000,7,47,2000,6.3,7.3,27.4,42.9,5,2017
+362,Crawford-Marlborough-Nakoma Neighborhood Association,2429,89.7,422316.0,1941,20,49,1941,13.7,6.2,24.5,33.5,3,2017
+359,Madison West Neighborhood Association,11657,72.7,321512.0,2001,91,222,2001,5.1,7.6,21.0,24.7,28,2017
+175,Greystone,283,80.8,350200.0,2004,2,0,2004,5.0,7.6,32.1,47.7,0,2017
+357,Secret Places Neighborhood Association,473,84.1,333350.0,2009,2,0,2009,2.3,7.5,33.5,55.4,1,2017
+167,Country Grove Neighborhood Association,917,84.7,339137.0,1996,2,7,1996,5.6,7.4,31.9,44.8,0,2017
+177,Summit Woods Neighborhood Association,721,85.1,237598.0,1966,12,10,1966,12.7,5.8,14.2,16.6,3,2017
+144,Tamarack Trails Community Condominium Association,464,58.0,245444.0,1978,0,2,1978,25.5,8.1,26.4,30.1,0,2017
+105,Eken Park Neighborhood Association,2505,78.3,157623.0,1948,29,65,1948,6.8,6.9,15.0,16.3,15,2017
+148,Bay Creek Neighborhood Association,2401,83.6,264574.0,1949,52,120,1949,11.1,5.9,14.8,15.7,6,2017
+98,Brentwood Village Association,1128,63.2,204254.0,1962,13,39,1962,14.9,6.9,20.7,22.4,10,2017
+134,Sauk Creek Neighborhood Association,1029,79.5,385444.0,1992,3,8,1992,11.6,7.7,23.2,29.6,2,2017
+145,Oakbridge Community Neighborhood Association,343,81.5,245639.0,1984,1,4,1984,6.5,5.1,19.7,26.2,0,2017
+135,Junction Ridge Neighborhood Association,1628,80.6,277575.0,2000,33,42,2000,30.9,7.3,10.5,10.3,4,2017
+88,High Crossing Neighborhood Association,1020,75.5,200088.0,2003,14,38,2003,11.9,6.7,14.8,15.2,9,2017
+110,McClellan Park Neighborhood Association,2230,81.7,262246.0,2007,11,37,2007,21.0,7.5,22.3,27.5,4,2017
+103,Hawthorne Neighborhood Association,1090,66.0,147758.0,1955,27,38,1955,8.4,5.8,20.5,21.7,7,2017
+160,Prairie Hills Neighborhood Association,3350,57.2,203156.0,1977,29,78,1977,6.3,6.7,30.1,34.4,8,2017
+165,Maple-Prairie Neighborhood Association,1732,79.6,263769.0,1993,11,37,1993,3.5,6.9,21.7,26.9,3,2017
+349,Majestic Oaks Neighborhood Association,467,86.7,,1935,12,20,1935,23.2,3.2,8.8,8.2,4,2017
+353,Twin Oaks Neighborhood Association,192,52.3,204591.0,2005,1,7,2005,0.9,7.0,42.6,57.8,2,2017
+85,Sherman Village Neighborhood Association,2283,82.2,167141.0,1966,8,46,1966,19.3,6.2,19.8,21.3,2,2017
+351,Rocky Bluff Neighborhood Association,1038,76.8,259196.0,1955,19,28,1955,5.6,5.9,9.6,11.1,0,2017
+99,Mayfair Park Neighborhood Association,593,64.9,155059.0,1961,69,140,1961,9.4,6.3,22.3,24.9,12,2017
+130,Wisconsin Co-op Housing Association,355,91.9,263525.0,1950,1,3,1950,16.2,6.0,21.2,28.3,0,2017
+102,Sheridan Triangle Neighborhood Association,340,91.9,166459.0,1947,1,11,1947,17.3,4.5,14.5,17.0,0,2017
+151,Bram's Addition Neighborhood Association,1282,24.4,119781.0,1965,31,61,1965,8.5,5.7,30.9,31.0,13,2017
+128,Walnut Grove Homeowners Association,981,80.7,310273.0,1976,6,5,1976,15.4,5.5,21.3,28.6,0,2017
+354,Cardinal Glenn Neighborhood Association,178,77.2,259900.0,2015,1,1,2015,1.7,8.1,22.8,35.9,0,2017
+352,Woodland Hills Neighborhood Association,682,81.8,336080.0,1985,2,7,1985,11.9,6.4,14.8,19.2,0,2017
+132,East Buckeye Neighborhood Association,2043,85.2,218370.0,1986,3,18,1986,5.8,5.7,23.0,32.9,0,2017
+500,Dunn's Marsh Neighborhood Association,2356,32.1,148806.0,1964,45,106,1964,4.1,6.1,34.6,39.6,27,2017
+89,Whitetail Ridge,507,76.2,198177.0,1995,1,6,1995,2.7,6.9,25.4,34.3,0,2017
+94,Berkley Oaks Neighborhood Association,1399,48.8,144731.0,1964,26,76,1964,10.6,6.3,27.1,24.8,15,2017
+1,City of Madison,232848,75.7,266536.0,1976,10032,8671,1976,9.6,6.6,17.5,20.8,1038,2017
+104,Burke Heights Neighborhood Association,607,67.3,169537.0,1973,25,162,1973,13.1,6.5,22.6,26.1,3,2017
+153,Burr Oaks Neighborhood Association,1745,20.1,143020.0,1962,69,99,1962,3.8,5.5,30.4,35.3,24,2017
+156,Capitol View Neighborhood Association,388,40.5,158642.0,1966,1,10,1966,5.9,5.3,29.5,28.8,0,2017
+91,Lake View Hill Neighborhood Association,1192,69.4,177106.0,1961,12,29,1961,12.9,5.4,22.0,26.1,1,2017
+126,Capitol Neighborhoods,13845,82.0,298942.0,1974,266,796,1974,5.2,6.6,1.4,1.4,120,2017
+129,Sunset Village Neighborhood Association,1842,87.4,292796.0,1948,15,50,1948,13.0,5.8,17.7,20.3,2,2017
+86,Westchester Gardens Neighborhood Association,1302,65.7,194971.0,1985,56,76,1985,4.2,7.0,24.8,31.0,10,2017
+358,Liberty Place Neighborhood Association,432,65.7,241999.0,2005,2,8,2005,0.7,7.0,30.7,45.0,0,2017
+84,Cherokee Park Neighborhood Association,648,93.6,318123.0,1977,2,5,1977,18.0,6.4,17.6,23.0,0,2017
+161,Arbor Hills Neighborhood Association,1101,75.8,281460.0,1970,6,23,1970,18.3,6.1,20.2,24.7,2,2017
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,165131.0,1986,37,97,1986,7.0,6.0,16.6,18.9,10,2017
+176,Dudgeon-Monroe Neighborhood Association,3181,90.8,380852.0,1931,34,44,1931,9.2,6.6,18.5,26.7,0,2017
+111,Eastmorland Community Association,3166,89.6,176359.0,1953,66,229,1953,14.1,6.6,16.3,19.4,15,2017
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,429468.0,1990,0,2,1990,17.5,6.8,18.2,24.9,1,2017
+149,Waunona Neighborhood Association,1027,71.0,378255.0,1959,7,17,1959,14.5,6.8,20.8,22.9,4,2017
+121,Elvehjem Neighborhood Association,4165,81.8,203620.0,1969,42,73,1969,15.2,6.2,21.9,27.3,8,2017
+123,Lake Edge Neighborhood Association,2380,88.5,180045.0,1951,29,65,1951,12.9,4.8,18.0,21.7,7,2017
+106,Emerson East Neighborhood Association,2042,83.9,203945.0,1926,38,98,1926,5.7,7.6,16.7,19.5,10,2017
+139,Glendale Neighborhood Association,2233,79.1,192526.0,1958,43,84,1958,16.4,6.1,19.8,24.7,13,2017
+141,Greenbush Neighborhood Association,2878,88.8,298845.0,1922,53,101,1922,3.1,6.9,5.6,9.0,37,2017
+155,Greentree Neighborhood Association,1841,76.7,247453.0,1967,13,38,1967,15.0,7.0,22.7,29.7,1,2017
+107,Hiestand Neighborhood Association,3560,58.9,186572.0,1979,43,90,1979,10.7,6.3,25.2,32.3,10,2017
+112,Heritage Heights Community Association,2240,89.9,217228.0,1975,14,39,1975,15.1,6.3,20.5,29.0,8,2017
+138,"Hill Farms, University Neighborhood Association",2942,76.4,340359.0,1960,7,33,1960,20.5,6.8,19.0,22.2,4,2017
+355,Indian Springs Neighborhood Association,1654,63.3,204101.0,1988,6,35,1988,4.4,6.4,29.2,39.2,2,2017
+131,Parkwood Hills Community Association,1274,87.5,362564.0,1972,17,50,1972,18.3,6.0,23.5,28.9,3,2017
+133,Glen Oak Hills Neighborhood Association,844,87.7,230426.0,1956,7,9,1956,16.7,5.7,14.9,18.1,0,2017
+147,Westmorland Neighborhood Association,2207,91.7,299406.0,1951,10,35,1951,15.0,5.9,22.2,28.9,1,2017
+92,Lerdahl Park Neighborhood Association,925,80.4,319602.0,1966,9,28,1966,16.4,5.4,16.6,20.5,3,2017
+114,Marquette Neighborhood Association,4909,88.8,363637.0,1916,113,171,1916,4.7,6.7,12.8,15.4,14,2017
+87,North Lake Mendota Neighborhood Association,898,86.3,258152.0,1992,4,6,1992,8.8,5.9,15.1,27.2,1,2017
+136,Regent Neighborhood Association,6421,85.3,457380.0,1936,62,118,1936,6.3,6.8,12.6,15.6,6,2017
+120,Richmond Hill Homeowners Association,395,85.3,353412.0,1997,3,2,1997,11.1,6.6,26.3,39.1,0,2017
+101,Ridgewood Neighborhood Association,3992,57.5,227879.0,1995,31,67,1995,3.8,7.2,27.0,35.0,13,2017
+97,Sherman Neighborhood Association,2698,72.4,165111.0,1954,68,150,1954,11.3,6.6,19.4,20.4,16,2017
+142,Faircrest Neighborhood Association,1191,80.2,334956.0,1965,16,17,1965,15.7,6.8,19.5,25.2,1,2017
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,148806.0,1964,45,106,1964,4.1,6.1,34.6,39.6,27,2017
+169,Orchard Ridge Neighborhood Association,2262,87.6,245051.0,1964,27,83,1964,21.3,6.6,17.4,21.0,7,2017
+159,Meadowood Neighborhood Association,2962,68.6,188227.0,1964,26,83,1964,12.6,7.1,25.3,29.7,7,2017
+113,Rolling Meadows Neighborhood Association,2366,84.1,187798.0,1966,21,54,1966,15.0,5.9,20.7,26.8,4,2017
+143,Wexford Ridge Neighborhood,400,27.3,,1976,2,25,1976,10.7,8.4,39.9,51.9,2,2017
+164,Westhaven Trails Homeowners Assoc,1956,66.2,221966.0,1990,14,38,1990,2.8,6.6,26.5,33.3,2,2017
+109,Sprecher East Neighborhood Association,2233,86.4,249257.0,2003,7,25,2003,6.1,7.6,23.6,31.1,3,2017
+90,Bluff Acres Neighborhood Association,3725,67.6,196438.0,1980,47,106,1980,7.7,6.7,18.3,20.1,24,2017
+146,Midvale Heights Community Association,3479,83.6,275575.0,1958,24,75,1958,18.3,6.4,20.1,25.0,3,2017
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,256479.0,1926,93,245,1926,6.2,6.0,15.6,17.7,25,2017
+166,Glacier Ridge Neighborhood Association,1385,83.3,271654.0,2002,1,21,2002,2.7,7.9,27.9,39.7,0,2017
+118,Wexford Village Homeowners Association,2506,84.3,332894.0,1992,13,27,1992,15.6,6.7,19.7,22.5,3,2017
+181,Monona Bay Neighborhood Association,1138,53.3,312189.0,1976,26,39,1976,7.5,6.8,14.7,11.3,6,2017
+140,Vilas Neighborhood Association,1881,90.8,527156.0,1921,20,66,1921,6.6,6.6,13.4,20.1,4,2017
+125,Blackhawk Homeowners Association,2168,83.4,582885.0,2001,1,1,2001,5.3,7.5,29.3,37.4,0,2017
+172,Oakwood Village Association,119,98.3,,1975,0,5,1975,97.9,8.0,0.0,0.0,0,2017
+117,Spring Harbor Neighborhood Association,2224,78.0,365240.0,1959,19,40,1959,12.2,4.5,17.4,20.7,2,2017
+115,Tenney-Lapham Neighborhood Association,4149,87.1,338150.0,1928,95,161,1928,3.4,6.8,9.5,9.8,18,2017
+93,Nobel Park Neighborhood Association,353,72.2,146716.0,1955,7,15,1955,9.4,6.6,20.7,22.2,3,2017
+108,Worthington Park Neighborhood Association,701,30.7,148019.0,1959,9,32,1959,2.5,4.9,38.6,45.8,8,2017
+178,Leopold Neighborhood Association,1106,45.0,,1981,16,34,1981,5.3,7.0,27.1,29.3,6,2017
+363,Cherokee Garden Condominium Association,783,95.7,,1985,0,3,1985,49.3,7.1,1.9,2.2,0,2017
+137,South Campus Property Owners Association,4194,80.5,,1989,32,116,1989,0.3,7.0,0.1,0.1,18,2017
+116,University Apartments Assembly,2643,29.9,,1963,0,0,1963,0.5,4.0,26.8,39.8,0,2017
+350,Marbella Condominium Association,463,78.8,,1996,0,3,1996,23.0,7.4,10.1,11.1,0,2017
+162,Highland Manor Home Owners Association,344,61.5,,1971,0,12,1971,16.5,7.0,20.0,21.5,1,2017
+348,State-Langdon Neighborhood Association,10144,78.9,,1970,95,378,1970,0.2,7.7,0.3,0.3,87,2017
+361,Truax Neighborhood Association,191,19.5,,2014,15,12,2014,2.7,4.4,43.3,55.3,5,2017
+162,Highland Manor Home Owners Association,344,61.5,,1971,3,10,1971,16.5,7.0,20.0,21.5,2,2018
+178,Leopold Neighborhood Association,1106,45.0,,1981,41,38,1981,5.3,7.2,27.1,29.3,12,2018
+350,Marbella Condominium Association,463,78.8,,1996,10,2,1996,23.0,7.4,10.1,11.1,0,2018
+137,South Campus Property Owners Association,4194,80.5,,1992,135,121,1992,0.3,7.0,0.1,0.1,18,2018
+348,State-Langdon Neighborhood Association,10144,78.9,,1969,174,343,1969,0.2,7.8,0.3,0.3,106,2018
+349,Majestic Oaks Neighborhood Association,467,86.7,,1935,15,31,1935,23.2,3.2,8.8,8.2,3,2018
+108,Worthington Park Neighborhood Association,701,30.7,159668.0,1959,14,28,1959,2.5,4.9,38.6,45.8,3,2018
+143,Wexford Ridge Neighborhood,400,27.3,,1976,8,22,1976,10.7,8.4,39.9,51.9,3,2018
+358,Liberty Place Neighborhood Association,432,65.7,253999.0,2005,4,3,2005,0.7,7.0,30.7,45.0,1,2018
+118,Wexford Village Homeowners Association,2506,84.3,341593.0,1992,29,22,1992,15.6,6.7,19.7,22.5,1,2018
+352,Woodland Hills Neighborhood Association,682,81.8,346411.0,1985,11,4,1985,11.9,6.4,14.8,19.2,1,2018
+89,Whitetail Ridge,507,76.2,221752.0,1995,7,4,1995,2.7,7.7,25.4,34.3,0,2018
+130,Wisconsin Co-op Housing Association,355,91.9,281050.0,1950,2,1,1950,16.2,6.0,21.2,28.3,0,2018
+125,Blackhawk Homeowners Association,2168,83.4,584898.0,2001,11,12,2001,5.3,7.5,29.3,37.4,1,2018
+90,Bluff Acres Neighborhood Association,3725,67.6,215666.0,1980,94,127,1980,7.7,6.9,18.3,20.1,20,2018
+151,Bram's Addition Neighborhood Association,1282,24.4,139220.0,1965,54,59,1965,8.5,5.8,30.9,31.0,10,2018
+104,Burke Heights Neighborhood Association,607,67.3,181303.0,1973,24,323,1973,13.1,6.5,22.6,26.1,6,2018
+167,Country Grove Neighborhood Association,917,84.7,348312.0,1996,4,5,1996,5.6,7.4,31.9,44.8,0,2018
+362,Crawford-Marlborough-Nakoma Neighborhood Association,2429,89.7,433598.0,1942,42,56,1942,13.7,6.5,24.5,33.5,5,2018
+176,Dudgeon-Monroe Neighborhood Association,3181,90.8,411326.0,1931,39,46,1931,9.2,7.8,18.5,26.7,7,2018
+500,Dunn's Marsh Neighborhood Association,2356,32.1,164053.0,1964,46,75,1964,4.1,6.3,34.6,39.6,27,2018
+133,Glen Oak Hills Neighborhood Association,844,87.7,241617.0,1956,10,5,1956,16.7,5.8,14.9,18.1,0,2018
+88,High Crossing Neighborhood Association,1020,75.5,214283.0,2003,72,44,2003,11.9,6.8,14.8,15.2,1,2018
+138,"Hill Farms, University Neighborhood Association",2942,76.4,358025.0,1960,22,33,1960,20.5,7.3,19.0,22.2,4,2018
+92,Lerdahl Park Neighborhood Association,925,80.4,345591.0,1966,4,23,1966,16.4,5.4,16.6,20.5,0,2018
+98,Brentwood Village Association,1128,63.2,223884.0,1962,9,46,1962,14.9,7.4,20.7,22.4,9,2018
+84,Cherokee Park Neighborhood Association,648,93.6,332727.0,1977,2,4,1977,18.0,6.4,17.6,23.0,0,2018
+359,Madison West Neighborhood Association,11657,72.7,329697.0,2001,174,292,2001,5.1,7.8,21.0,24.7,24,2018
+165,Maple-Prairie Neighborhood Association,1732,79.6,278068.0,1993,16,21,1993,3.5,6.9,21.7,26.9,5,2018
+114,Marquette Neighborhood Association,4909,88.8,393410.0,1917,291,178,1917,4.7,6.8,12.8,15.4,34,2018
+99,Mayfair Park Neighborhood Association,593,64.9,167093.0,1961,123,149,1961,9.4,6.3,22.3,24.9,9,2018
+351,Rocky Bluff Neighborhood Association,1038,76.8,280464.0,1955,25,13,1955,5.6,5.9,9.6,11.1,2,2018
+113,Rolling Meadows Neighborhood Association,2366,84.1,201081.0,1966,64,45,1966,15.0,5.9,20.7,26.8,11,2018
+134,Sauk Creek Neighborhood Association,1029,79.5,396181.0,1992,13,13,1992,11.6,8.0,23.2,29.6,1,2018
+109,Sprecher East Neighborhood Association,2233,86.4,267301.0,2003,21,32,2003,6.1,7.6,23.6,31.1,1,2018
+117,Spring Harbor Neighborhood Association,2224,78.0,383507.0,1959,28,25,1959,12.2,4.7,17.4,20.7,2,2018
+170,Stone Meadows Neighborhood Association,3118,78.8,263741.0,2000,24,35,2000,6.3,7.3,27.4,42.9,1,2018
+177,Summit Woods Neighborhood Association,721,85.1,251072.0,1966,16,13,1966,12.7,6.1,14.2,16.6,1,2018
+145,Oakbridge Community Neighborhood Association,343,81.5,258127.0,1984,0,8,1984,6.5,5.1,19.7,26.2,0,2018
+124,Stonefield Woods-Ridge Neighborhood Association,235,87.3,443855.0,1990,1,4,1990,17.5,6.8,18.2,24.9,0,2018
+148,Bay Creek Neighborhood Association,2401,83.6,291130.0,1951,76,97,1951,11.1,6.2,14.8,15.7,10,2018
+171,Allied Dunn's Marsh Neighborhood Association,2356,32.1,164053.0,1964,46,75,1964,4.1,6.3,34.6,39.6,27,2018
+161,Arbor Hills Neighborhood Association,1101,75.8,303055.0,1970,9,31,1970,18.3,6.2,20.2,24.7,3,2018
+94,Berkley Oaks Neighborhood Association,1399,48.8,162049.0,1964,65,87,1964,10.6,6.5,27.1,24.8,11,2018
+363,Cherokee Garden Condominium Association,783,95.7,,1985,4,2,1985,49.3,8.0,1.9,2.2,0,2018
+156,Capitol View Neighborhood Association,388,40.5,174694.0,1966,4,4,1966,5.9,5.0,29.5,28.8,2,2018
+153,Burr Oaks Neighborhood Association,1745,20.1,146767.0,1962,106,83,1962,3.8,5.7,30.4,35.3,21,2018
+126,Capitol Neighborhoods,13845,82.0,301381.0,1979,455,729,1979,5.2,7.0,1.4,1.4,132,2018
+354,Cardinal Glenn Neighborhood Association,178,79.2,300250.0,2015,50,17,2015,2.5,8.1,22.5,34.6,2,2018
+100,Carpenter-Ridgeway Neighborhood Association,1016,66.4,176542.0,1986,127,84,1986,7.0,6.1,16.6,18.9,15,2018
+106,Emerson East Neighborhood Association,2042,83.9,212767.0,1926,123,100,1926,5.7,7.6,16.7,19.5,16,2018
+132,East Buckeye Neighborhood Association,2043,85.2,227717.0,1986,10,20,1986,5.8,5.7,23.0,32.9,0,2018
+111,Eastmorland Community Association,3166,89.6,187665.0,1954,59,265,1954,14.1,6.8,16.3,19.4,23,2018
+105,Eken Park Neighborhood Association,2505,78.3,171451.0,1948,109,90,1948,6.8,7.0,15.0,16.3,12,2018
+364,Elderberry Neighborhood Association,575,85.5,473800.0,2012,46,11,2012,18.1,8.1,29.7,36.0,2,2018
+121,Elvehjem Neighborhood Association,4165,81.8,212151.0,1969,75,80,1969,15.2,6.2,21.9,27.3,11,2018
+142,Faircrest Neighborhood Association,1191,80.2,351509.0,1965,11,12,1965,15.7,7.3,19.5,25.2,2,2018
+166,Glacier Ridge Neighborhood Association,1385,83.3,286032.0,2002,5,14,2002,2.7,7.9,27.9,39.7,1,2018
+112,Heritage Heights Community Association,2240,89.9,228770.0,1975,22,24,1975,15.1,6.3,20.5,29.0,5,2018
+139,Glendale Neighborhood Association,2233,79.1,202206.0,1958,40,73,1958,16.4,6.4,19.8,24.7,12,2018
+141,Greenbush Neighborhood Association,2878,88.8,299843.0,1924,107,100,1924,3.1,7.0,5.6,9.0,36,2018
+155,Greentree Neighborhood Association,1841,76.7,260240.0,1967,18,38,1967,15.0,7.2,22.7,29.7,7,2018
+175,Greystone,283,80.8,350200.0,2004,1,5,2004,5.0,7.6,32.1,47.7,0,2018
+103,Hawthorne Neighborhood Association,1090,66.0,158585.0,1955,60,55,1955,8.4,5.8,20.5,21.7,10,2018
+107,Hiestand Neighborhood Association,3560,58.9,205359.0,1979,57,80,1979,10.7,6.3,25.2,32.3,8,2018
+355,Indian Springs Neighborhood Association,1654,53.9,210708.0,1988,20,37,1988,3.9,6.8,29.0,35.4,2,2018
+123,Lake Edge Neighborhood Association,2380,88.5,200078.0,1951,62,62,1951,12.9,5.2,18.0,21.7,5,2018
+135,Junction Ridge Neighborhood Association,1628,80.6,290434.0,2000,76,78,2000,30.9,7.3,10.5,10.3,7,2018
+91,Lake View Hill Neighborhood Association,1192,69.4,201623.0,1961,30,41,1961,12.9,5.8,22.0,26.1,4,2018
+95,Mendota Hills Neighborhood Association,364,82.6,207680.0,1959,5,4,1959,16.6,5.5,17.7,21.8,0,2018
+181,Monona Bay Neighborhood Association,1138,53.3,333224.0,1975,81,41,1975,7.5,6.8,14.7,11.3,6,2018
+93,Nobel Park Neighborhood Association,353,72.2,161495.0,1955,26,10,1955,9.4,7.1,20.7,22.2,5,2018
+87,North Lake Mendota Neighborhood Association,898,86.3,278684.0,1992,7,7,1992,8.8,5.9,15.1,27.2,2,2018
+110,McClellan Park Neighborhood Association,2230,81.7,272463.0,2008,26,68,2008,21.0,7.7,22.3,27.5,6,2018
+1,City of Madison,232895,75.7,281489.0,1976,4019,8594,1976,9.6,6.8,17.5,20.9,1170,2018
+159,Meadowood Neighborhood Association,2962,68.6,206014.0,1964,24,86,1964,12.6,7.1,25.3,29.7,9,2018
+146,Midvale Heights Community Association,3479,83.6,296081.0,1958,95,59,1958,18.3,6.5,20.1,25.0,4,2018
+172,Oakwood Village Association,119,98.3,,1975,4,5,1975,97.9,8.0,0.0,0.0,0,2018
+131,Parkwood Hills Community Association,1274,87.5,381047.0,1972,47,27,1972,18.3,6.0,23.5,28.9,7,2018
+120,Richmond Hill Homeowners Association,395,85.3,361172.0,1997,1,5,1997,11.1,6.6,26.3,39.1,1,2018
+169,Orchard Ridge Neighborhood Association,2262,87.6,255009.0,1964,48,86,1964,21.3,6.7,17.4,21.0,4,2018
+160,Prairie Hills Neighborhood Association,3350,57.2,213696.0,1977,40,68,1977,6.3,6.7,30.1,34.4,16,2018
+136,Regent Neighborhood Association,6421,85.3,482995.0,1936,97,92,1936,6.3,6.9,12.6,15.6,8,2018
+101,Ridgewood Neighborhood Association,3992,57.5,243782.0,1995,37,97,1995,3.8,7.9,27.0,35.0,5,2018
+102,Sheridan Triangle Neighborhood Association,340,91.9,183075.0,1947,3,9,1947,17.3,4.7,14.5,17.0,0,2018
+182,Schenk-Atwood-Starkweather-Yahara Neighborhood Association,5773,88.0,270258.0,1926,185,173,1926,6.2,6.1,15.6,17.7,28,2018
+357,Secret Places Neighborhood Association,473,84.1,356650.0,2012,2,6,2012,2.3,7.8,33.5,55.4,0,2018
+97,Sherman Neighborhood Association,2835,72.1,175242.0,1954,150,159,1954,11.0,6.8,19.6,20.8,29,2018
+85,Sherman Village Neighborhood Association,2283,82.2,183035.0,1966,14,26,1966,19.3,6.5,19.8,21.3,2,2018
+361,Truax Neighborhood Association,191,19.5,,2016,13,12,2016,2.7,4.4,43.3,55.3,2,2018
+144,Tamarack Trails Community Condominium Association,464,58.0,254752.0,1978,3,11,1978,25.5,8.1,26.4,30.1,0,2018
+140,Vilas Neighborhood Association,1881,90.8,576060.0,1921,31,42,1921,6.6,7.3,13.4,20.1,0,2018
+116,University Apartments Assembly,2643,29.9,,1963,3,1,1963,0.5,4.0,26.8,39.8,0,2018
+129,Sunset Village Neighborhood Association,1842,87.4,304599.0,1948,68,15,1948,13.0,6.3,17.7,20.3,3,2018
+115,Tenney-Lapham Neighborhood Association,4149,87.1,357432.0,1928,223,185,1928,3.4,7.1,9.5,9.8,17,2018
+353,Twin Oaks Neighborhood Association,192,52.3,213922.0,2005,3,1,2005,0.9,7.0,42.6,57.8,0,2018
+128,Walnut Grove Homeowners Association,981,80.7,318243.0,1976,16,12,1976,15.4,8.0,21.3,28.6,0,2018
+149,Waunona Neighborhood Association,1027,71.0,389808.0,1959,15,20,1959,14.5,6.8,20.8,22.9,2,2018
+86,Westchester Gardens Neighborhood Association,1302,65.7,208572.0,1985,73,64,1985,4.2,7.2,24.8,31.0,15,2018
+164,Westhaven Trails Homeowners Assoc,1956,66.2,233925.0,1990,5,48,1990,2.8,6.6,26.5,33.3,4,2018
+147,Westmorland Neighborhood Association,2207,91.7,319744.0,1951,42,29,1951,15.0,6.0,22.2,28.9,0,2018
